@@ -41,7 +41,8 @@ public class BaseTest {
     }
 
     @AfterAll
-    public static void tearDown() {
+    public static void tearDown() throws InterruptedException {
+        Thread.sleep(1000);
         driver.quit();
         System.out.println("Tests finished");
     }

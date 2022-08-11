@@ -3,6 +3,7 @@ package com.kitapyurdu.log;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestWatcher;
+import org.junit.platform.commons.logging.Logger;
 
 import java.util.Optional;
 
