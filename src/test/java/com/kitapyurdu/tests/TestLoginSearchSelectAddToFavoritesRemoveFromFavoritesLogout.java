@@ -1,6 +1,7 @@
 package com.kitapyurdu.tests;
 
 import com.kitapyurdu.driver.BaseTest;
+import com.kitapyurdu.methods.BasePage;
 import com.kitapyurdu.pages.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
@@ -8,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extends BaseTest {
 
-
+   BasePage basePage = new BasePage();
    HomePage homePage = new HomePage(driver);
    LoginPage loginPage = new LoginPage(driver);
    BooksPage booksPage = new BooksPage(driver);
@@ -19,8 +20,8 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     @Test
     @Order(1)
     public void testCheckHomePage() {
-        Assertions.assertTrue(driver.getCurrentUrl().equals("https://www.kitapyurdu.com/"),"Not on Home Page");
 
+        Assertions.assertTrue(basePage.checkURL("https://www.kitapyurdu.com/"));
     }
 
     @Test

@@ -13,6 +13,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     LoginPage loginPage = new LoginPage(driver);
     BooksPage booksPage = new BooksPage(driver);
     BookDetailPage bookDetailPage = new BookDetailPage(driver);
+
     AddressPage addressPage = new AddressPage(driver);
     CartPage cartPage = new CartPage(driver);
     CheckOutPage checkOutPage = new CheckOutPage(driver);
@@ -56,7 +57,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     @Test
     @Order(6)
     public void testAddAddress() throws InterruptedException {
-        checkOutPage.addNewAddress();
+        addressPage.addNewAddress();
     }
 
     @Test

@@ -37,6 +37,15 @@ public class BasePage extends BaseTest {
         findElement(locator).clear();
         findElement(locator).sendKeys(text);
     }
+
+    public boolean checkURL(String URL) {
+        if (driver.getCurrentUrl().equals(URL)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
     public boolean isDisplayed(By locator) {
         return findElement(locator).isDisplayed();
     }
