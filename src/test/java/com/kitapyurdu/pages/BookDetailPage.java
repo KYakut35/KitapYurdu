@@ -11,7 +11,7 @@ public class BookDetailPage extends BasePage {
     }
 
     public boolean isOnDetailPage() {
-        if (isDisplayed(By.id("button-cart"))) {
+        if (findElement(By.xpath("//img[contains(@src,'wi:220')]")).isDisplayed()) {
             return true;
         }
         return false;

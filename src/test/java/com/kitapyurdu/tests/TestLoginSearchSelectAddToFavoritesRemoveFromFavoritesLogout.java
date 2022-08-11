@@ -36,7 +36,7 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     @Order(3)
     public void testSearchBook() throws InterruptedException {
        homePage.searchBook("Sanat");
-       // Kontrol edilecek
+        Assertions.assertTrue(booksPage.checkSearch("Sanat"),"Book Search Failed");
     }
 
     @Test
@@ -44,7 +44,7 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     public void testSelectBook() throws InterruptedException {
         booksPage.chooseBook(2,3); // 2.Page , 3.Book
 
-        // Assertions.assertTrue(bookDetailPage.isOnDetailPage(),"Not on Book Detail Page");
+        Assertions.assertTrue(bookDetailPage.isOnDetailPage(),"Not on Book Detail Page");
 
     }
 
