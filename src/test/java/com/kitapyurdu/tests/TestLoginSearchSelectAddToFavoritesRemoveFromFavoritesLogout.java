@@ -20,7 +20,6 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     @Test
     @Order(1)
     public void testCheckHomePage() {
-
         Assertions.assertTrue(basePage.checkURL("https://www.kitapyurdu.com/"));
     }
 

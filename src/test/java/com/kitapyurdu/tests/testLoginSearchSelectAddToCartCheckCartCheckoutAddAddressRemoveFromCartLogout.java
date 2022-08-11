@@ -25,7 +25,6 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
         homePage.goToLoginPage();
         loginPage.login("kyakut35@gmail.com","12345678"); // Email , Password
         Assertions.assertTrue(userPage.isLoggedIn(),"User Login Failed");
-
     }
 
 

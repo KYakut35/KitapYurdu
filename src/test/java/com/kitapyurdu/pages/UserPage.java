@@ -13,7 +13,12 @@ public class UserPage extends BasePage {
     }
 
     public boolean isLoggedIn() {
+        if (driver.getCurrentUrl().equals("https://www.kitapyurdu.com/index.php?route=account/account")) {
         return true;
+        }
+        else {
+            return false;
+        }
     }
 
 
