@@ -43,4 +43,15 @@ public class BooksPage extends BasePage {
         books.get(random.nextInt(upperBound)).click();
         Thread.sleep(3000);
     }
+
+    public boolean checkSearch(String text) {
+        if (driver.getCurrentUrl().contains(text)) {
+
+        return true;
+        }
+        else {
+            return false;
+        }
+
+    }
 }

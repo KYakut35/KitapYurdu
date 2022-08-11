@@ -32,6 +32,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     @Order(2)
     public void testSearchBook() throws InterruptedException {
         homePage.searchBook("Felsefe");
+        Assertions.assertTrue(booksPage.checkSearch("Felsefe"),"Book Search Failed");
 
     }
 
