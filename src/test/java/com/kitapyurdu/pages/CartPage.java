@@ -25,4 +25,12 @@ public class CartPage extends BasePage {
         Thread.sleep(2000);
         click(By.xpath("//i[@title=\"Kaldır\"]"));
     }
+
+    public boolean checkCart(int i) {
+        return true;
+    }
+
+    public boolean checkCartForEmpty() {
+        return true;
+    }
 }

@@ -44,9 +44,7 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     @Order(4)
     public void testSelectBook() throws InterruptedException {
         booksPage.chooseBook(2,3); // 2.Page , 3.Book
-
         Assertions.assertTrue(bookDetailPage.isOnDetailPage(),"Not on Book Detail Page");
-
     }
 
     @Test
@@ -54,7 +52,6 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     public void testAddBookToFavorites() {
         bookDetailPage.addToFavorites();
         Assertions.assertTrue(favoritePage.checkFavorites(),"Favorites List is Empty");
-
     }
 
     @Test

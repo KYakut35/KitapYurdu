@@ -14,11 +14,7 @@ public class CheckOutPage  extends BasePage {
 
 
 
-    public void selectShipmentCompany() throws InterruptedException {
-        Thread.sleep(1000);
-        click(By.xpath("//input[@value=\"23-non\"]"));
-        click(By.id("button-checkout-continue"));
-    }
+
 
     public void backToCartPage() throws InterruptedException {
         Thread.sleep(2000);

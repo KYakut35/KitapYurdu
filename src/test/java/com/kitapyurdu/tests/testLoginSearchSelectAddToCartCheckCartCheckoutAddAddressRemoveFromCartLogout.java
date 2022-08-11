@@ -9,11 +9,11 @@ import org.junit.jupiter.api.Test;
 public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFromCartLogout extends BaseTest {
 
     HomePage homePage = new HomePage(driver);
+    ShipmentPage shipmentPage = new ShipmentPage(driver);
     UserPage userPage = new UserPage(driver);
     LoginPage loginPage = new LoginPage(driver);
     BooksPage booksPage = new BooksPage(driver);
     BookDetailPage bookDetailPage = new BookDetailPage(driver);
-
     AddressPage addressPage = new AddressPage(driver);
     CartPage cartPage = new CartPage(driver);
     CheckOutPage checkOutPage = new CheckOutPage(driver);
@@ -21,10 +21,13 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
 
     @Test
     @Order(1)
-    public void testCheckLogin() {
+    public void testCheckLogin() throws InterruptedException {
         homePage.goToLoginPage();
         loginPage.login("kyakut35@gmail.com","12345678"); // Email , Password
+        Thread.sleep(2000);
         Assertions.assertTrue(userPage.isLoggedIn(),"User Login Failed");
+
+
     }
 
 
@@ -40,30 +43,37 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     @Order(3)
     public void testSelectRandomBook() throws InterruptedException {
         booksPage.chooseRandomBook(2);
+        Assertions.assertTrue(bookDetailPage.isOnDetailPage(),"Not on Book Detail Page");
+
     }
 
     @Test
     @Order(4)
     public void testAddToCart() throws InterruptedException {
         bookDetailPage.addToCart();
+        Assertions.assertTrue(cartPage.checkCart(1),"Invalid Cart");
     }
 
     @Test
     @Order(5)
     public void testDoubleTheCart() {
         cartPage.makeItDouble();
+        Assertions.assertTrue(cartPage.checkCart(2),"Invalid Cart");
     }
+
 
     @Test
     @Order(6)
     public void testAddAddress() throws InterruptedException {
         addressPage.addNewAddress();
+        Assertions.assertTrue(addressPage.checkAddress(),"Invalid Address");
     }
 
     @Test
     @Order(7)
     public void testSelectShipmentCompany() throws InterruptedException {
-        checkOutPage.selectShipmentCompany();
+        shipmentPage.selectShipmentCompany();
+        Assertions.assertTrue(shipmentPage.checkShipmentMethod(),"Invalid Cart");
     }
 
     @Test
@@ -71,17 +81,21 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     public void testRemoveFromCart() throws InterruptedException {
         checkOutPage.backToCartPage();
         cartPage.clearCart();
+        Assertions.assertTrue(cartPage.checkCartForEmpty(),"Cart Is Not Empty");
+
     }
 
     @Test
     @Order(9)
     public void testDeleteAddress() {
         userPage.deleteAddress();
+        Assertions.assertTrue(userPage.checkMyAddress(),"Invalid Addresses");
     }
 
     @Test
     @Order(10)
     public void testLogout() throws InterruptedException {
-         homePage.exit();
+        homePage.exit();
+        Assertions.assertTrue(homePage.checkLogout(),"Logout Failed");
     }
 }

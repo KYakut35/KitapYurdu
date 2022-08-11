@@ -33,4 +33,7 @@ public class AddressPage extends BasePage {
     }
 
 
+    public boolean checkAddress() {
+        return true;
+    }
 }
