@@ -33,4 +33,13 @@ public class HomePage extends BasePage {
         targetElement.click();
 
     }
+
+    public boolean checkLogout() {
+        if (findElement(By.xpath("//a[contains(@href,'login')]")).getText().equals("Giriş Yap")) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 }

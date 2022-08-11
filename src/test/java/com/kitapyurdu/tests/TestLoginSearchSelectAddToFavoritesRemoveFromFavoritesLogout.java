@@ -25,9 +25,10 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
 
     @Test
     @Order(2)
-    public void testCheckLogin() {
+    public void testCheckLogin() throws InterruptedException {
         homePage.goToLoginPage();
         loginPage.login("kyakut35@gmail.com","12345678"); // Email , Password
+        Thread.sleep(2000);
         Assertions.assertTrue(userPage.isLoggedIn(),"User Login Failed");
 
     }
@@ -68,6 +69,7 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     @Order(7)
     public void testLogout() throws InterruptedException {
         homePage.exit();
+        Assertions.assertTrue(homePage.checkLogout(),"Logout Failed");
     }
 
 
