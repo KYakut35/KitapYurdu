@@ -4,23 +4,14 @@ import com.kitapyurdu.methods.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-
-
 public class UserPage extends BasePage {
 
     public UserPage(WebDriver driver) {
-
     }
 
     public boolean isLoggedIn() {
-        if (driver.getCurrentUrl().equals("https://www.kitapyurdu.com/index.php?route=account/account")) {
-        return true;
-        }
-        else {
-            return false;
-        }
+        return driver.getCurrentUrl().equals("https://www.kitapyurdu.com/index.php?route=account/account");
     }
-
 
     public void deleteAddress() {
         click(By.xpath("//a[contains(@href,'route=account/account') and @class=\"common-sprite\"]"));

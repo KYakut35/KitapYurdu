@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 public class ShipmentPage extends BasePage {
 
     public ShipmentPage(WebDriver driver) {
-
     }
 
     public void selectShipmentCompany() throws InterruptedException {

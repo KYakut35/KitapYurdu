@@ -10,7 +10,6 @@ import org.openqa.selenium.interactions.Actions;
 public class HomePage extends BasePage {
 
     public HomePage(WebDriver driver) {
-
     }
 
     public void goToLoginPage() {
@@ -35,11 +34,6 @@ public class HomePage extends BasePage {
     }
 
     public boolean checkLogout() {
-        if (findElement(By.xpath("//a[contains(@href,'login')]")).getText().equals("Giriş Yap")) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return findElement(By.xpath("//a[contains(@href,'login')]")).getText().equals("Giriş Yap");
     }
 }

@@ -68,6 +68,4 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
         homePage.exit();
         Assertions.assertTrue(homePage.checkLogout(),"Logout Failed");
     }
-
-
 }
