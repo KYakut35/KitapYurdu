@@ -26,11 +26,18 @@ public class CartPage extends BasePage {
         click(By.xpath("//i[@title=\"Kaldır\"]"));
     }
 
-    public boolean checkCart(int i) {
-        return true;
+    public boolean checkCart(int bookCount) throws InterruptedException {
+        Thread.sleep(2000);
+        if ((findElement(By.name("quantity")).getText().equals(bookCount)) || (findElement(By.name("quantity")).getText().equals("2"))) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
-    public boolean checkCartForEmpty() {
-        return true;
+    public boolean checkCartForEmpty() throws InterruptedException {
+        Thread.sleep(2000);
+        return !isDisplayed(By.xpath("//img[contains(@src,'wi:40')]"));
     }
 }
