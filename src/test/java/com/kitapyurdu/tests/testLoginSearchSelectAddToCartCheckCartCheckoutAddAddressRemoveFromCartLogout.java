@@ -93,7 +93,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     @Order(9)
     public void testDeleteAddress() {
         userPage.deleteAddress();
-      //Will be added  Assertions.assertTrue(userPage.checkMyAddress(),"Invalid Addresses");
+       Assertions.assertTrue(userPage.checkMyAddress(),"Invalid Addresses");
     }
 
     @Test

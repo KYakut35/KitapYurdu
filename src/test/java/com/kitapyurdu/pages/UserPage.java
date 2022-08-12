@@ -3,6 +3,9 @@ package com.kitapyurdu.pages;
 import com.kitapyurdu.methods.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class UserPage extends BasePage {
 
@@ -20,6 +23,13 @@ public class UserPage extends BasePage {
     }
 
     public boolean checkMyAddress() {
-        return true;
+        List<WebElement> addressList = findAllElements(By.xpath("//a[contains(@href,'delete')]"));
+        if (addressList.size()==1) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
     }
 }
