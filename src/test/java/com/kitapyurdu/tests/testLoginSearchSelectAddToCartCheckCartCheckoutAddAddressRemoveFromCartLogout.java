@@ -70,12 +70,14 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     public void testAddAddress() throws InterruptedException {
         Thread.sleep(1000);
         addressPage.addNewAddress();
-        //Will be added Assertions.assertTrue(addressPage.checkAddress(),"Invalid Address");
+        Thread.sleep(1000);
+        Assertions.assertTrue(addressPage.checkAddress(),"Can Not Add New Address");
     }
 
     @Test
     @Order(7)
     public void testSelectShipmentCompany() throws InterruptedException {
+        Thread.sleep(1000);
         shipmentPage.selectShipmentCompany();
         //Assertions.assertTrue(shipmentPage.checkShipmentMethod(),"Invalid Shipment Selection");
     }

@@ -34,6 +34,6 @@ public class AddressPage extends BasePage {
 
 
     public boolean checkAddress() {
-        return true;
+        return checkURL("https://www.kitapyurdu.com/index.php?route=checkout/checkout#ShippingMethod");
     }
 }

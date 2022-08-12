@@ -839,3 +839,83 @@ Session ID: b8b50b77ea8ad814b1fdadcc2548ee26
 2022-08-12 14:18:11,367 INFO  [Log]               testLogout() PASSED 
 2022-08-12 14:18:11,367 INFO  [Log] ************* testLogout() Test Finished *************
  
+2022-08-12 14:22:27,149 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-12 14:22:27,155 INFO  [Log]               testCheckLogin() PASSED 
+2022-08-12 14:22:27,156 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-12 14:22:32,184 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-12 14:22:32,184 INFO  [Log]               testSearchBook() PASSED 
+2022-08-12 14:22:32,184 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-12 14:22:39,009 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-12 14:22:39,009 INFO  [Log]               testSelectRandomBook() PASSED 
+2022-08-12 14:22:39,009 INFO  [Log] ************* testSelectRandomBook() Test Finished *************
+ 
+2022-08-12 14:22:47,671 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-12 14:22:47,671 INFO  [Log]               testAddToCart() PASSED 
+2022-08-12 14:22:47,671 INFO  [Log] ************* testAddToCart() Test Finished *************
+ 
+2022-08-12 14:22:51,386 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-12 14:22:51,386 INFO  [Log]               testDoubleTheCart() PASSED 
+2022-08-12 14:22:51,386 INFO  [Log] ************* testDoubleTheCart() Test Finished *************
+ 
+2022-08-12 14:23:02,926 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-12 14:23:02,928 ERROR [Log]               testAddAddress() FAILED with cause : Can Not Add New Address ==> expected: <true> but was: <false> 
+2022-08-12 14:23:02,928 INFO  [Log] ************* testAddAddress() Test Finished *************
+ 
+2022-08-12 14:23:06,730 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-12 14:23:06,730 INFO  [Log]               testSelectShipmentCompany() PASSED 
+2022-08-12 14:23:06,730 INFO  [Log] ************* testSelectShipmentCompany() Test Finished *************
+ 
+2022-08-12 14:23:14,586 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-12 14:23:14,586 INFO  [Log]               testRemoveFromCart() PASSED 
+2022-08-12 14:23:14,586 INFO  [Log] ************* testRemoveFromCart() Test Finished *************
+ 
+2022-08-12 14:23:18,869 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-12 14:23:18,870 INFO  [Log]               testDeleteAddress() PASSED 
+2022-08-12 14:23:18,870 INFO  [Log] ************* testDeleteAddress() Test Finished *************
+ 
+2022-08-12 14:23:21,946 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-12 14:23:21,946 INFO  [Log]               testLogout() PASSED 
+2022-08-12 14:23:21,946 INFO  [Log] ************* testLogout() Test Finished *************
+ 
+2022-08-12 14:24:03,200 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-12 14:24:03,202 INFO  [Log]               testCheckLogin() PASSED 
+2022-08-12 14:24:03,202 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-12 14:24:07,969 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-12 14:24:07,969 INFO  [Log]               testSearchBook() PASSED 
+2022-08-12 14:24:07,969 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-12 14:24:15,708 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-12 14:24:15,708 INFO  [Log]               testSelectRandomBook() PASSED 
+2022-08-12 14:24:15,709 INFO  [Log] ************* testSelectRandomBook() Test Finished *************
+ 
+2022-08-12 14:24:24,975 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-12 14:24:24,975 INFO  [Log]               testAddToCart() PASSED 
+2022-08-12 14:24:24,975 INFO  [Log] ************* testAddToCart() Test Finished *************
+ 
+2022-08-12 14:24:28,809 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-12 14:24:28,809 INFO  [Log]               testDoubleTheCart() PASSED 
+2022-08-12 14:24:28,810 INFO  [Log] ************* testDoubleTheCart() Test Finished *************
+ 
+2022-08-12 14:24:41,695 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-12 14:24:41,695 INFO  [Log]               testAddAddress() PASSED 
+2022-08-12 14:24:41,695 INFO  [Log] ************* testAddAddress() Test Finished *************
+ 
+2022-08-12 14:24:44,326 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-12 14:24:44,326 INFO  [Log]               testSelectShipmentCompany() PASSED 
+2022-08-12 14:24:44,326 INFO  [Log] ************* testSelectShipmentCompany() Test Finished *************
+ 
+2022-08-12 14:24:52,107 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-12 14:24:52,107 INFO  [Log]               testRemoveFromCart() PASSED 
+2022-08-12 14:24:52,107 INFO  [Log] ************* testRemoveFromCart() Test Finished *************
+ 
+2022-08-12 14:24:55,382 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-12 14:24:55,383 INFO  [Log]               testDeleteAddress() PASSED 
+2022-08-12 14:24:55,383 INFO  [Log] ************* testDeleteAddress() Test Finished *************
+ 
+2022-08-12 14:24:58,260 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-12 14:24:58,260 INFO  [Log]               testLogout() PASSED 
+2022-08-12 14:24:58,260 INFO  [Log] ************* testLogout() Test Finished *************
+ 
