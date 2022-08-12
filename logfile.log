@@ -1,10 +1,48 @@
-2022-08-12 10:06:56,597 INFO  [Log] testCheckLogin() PASSED 
-2022-08-12 10:07:00,764 INFO  [Log] testSearchBook() PASSED 
-2022-08-12 10:07:07,771 INFO  [Log] testSelectRandomBook() PASSED 
-2022-08-12 10:07:17,201 INFO  [Log] testAddToCart() PASSED 
-2022-08-12 10:07:21,060 INFO  [Log] testDoubleTheCart() PASSED 
-2022-08-12 10:07:30,084 INFO  [Log] testAddAddress() PASSED 
-2022-08-12 10:07:32,896 INFO  [Log] testSelectShipmentCompany() PASSED 
-2022-08-12 10:07:37,819 INFO  [Log] testRemoveFromCart() PASSED 
-2022-08-12 10:07:39,747 INFO  [Log] testDeleteAddress() PASSED 
-2022-08-12 10:07:41,926 INFO  [Log] testLogout() PASSED 
+2022-08-12 10:26:08,430 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-12 10:26:08,430 INFO  [Log]               testCheckLogin() PASSED 
+2022-08-12 10:26:08,430 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-12 10:26:12,992 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-12 10:26:12,992 INFO  [Log]               testSearchBook() PASSED 
+2022-08-12 10:26:12,992 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-12 10:26:38,979 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-12 10:26:38,979 ERROR [Log]               testSelectRandomBook() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'wi:220')]"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f38be24ae151aab75b5c04821f2ddc92, findElement {using=xpath, value=//img[contains(@src,'wi:220')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59563}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59563/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f38be24ae151aab75b5c04821f2ddc92 
+2022-08-12 10:26:38,982 INFO  [Log] ************* testSelectRandomBook() Test Finished *************
+ 
+2022-08-12 10:26:45,512 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-12 10:26:45,512 INFO  [Log]               testAddToCart() PASSED 
+2022-08-12 10:26:45,512 INFO  [Log] ************* testAddToCart() Test Finished *************
+ 
+2022-08-12 10:26:48,835 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-12 10:26:48,835 INFO  [Log]               testDoubleTheCart() PASSED 
+2022-08-12 10:26:48,835 INFO  [Log] ************* testDoubleTheCart() Test Finished *************
+ 
+2022-08-12 10:26:57,802 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-12 10:26:57,802 INFO  [Log]               testAddAddress() PASSED 
+2022-08-12 10:26:57,802 INFO  [Log] ************* testAddAddress() Test Finished *************
+ 
+2022-08-12 10:27:00,727 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-12 10:27:00,727 INFO  [Log]               testSelectShipmentCompany() PASSED 
+2022-08-12 10:27:00,727 INFO  [Log] ************* testSelectShipmentCompany() Test Finished *************
+ 
+2022-08-12 10:27:05,710 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-12 10:27:05,710 INFO  [Log]               testRemoveFromCart() PASSED 
+2022-08-12 10:27:05,710 INFO  [Log] ************* testRemoveFromCart() Test Finished *************
+ 
+2022-08-12 10:27:08,353 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-12 10:27:08,353 INFO  [Log]               testDeleteAddress() PASSED 
+2022-08-12 10:27:08,353 INFO  [Log] ************* testDeleteAddress() Test Finished *************
+ 
+2022-08-12 10:27:10,997 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-12 10:27:10,998 INFO  [Log]               testLogout() PASSED 
+2022-08-12 10:27:10,998 INFO  [Log] ************* testLogout() Test Finished *************
+ 

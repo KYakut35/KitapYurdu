@@ -1,5 +1,4 @@
 package com.kitapyurdu.driver;
-import com.kitapyurdu.log.Log;
 import com.kitapyurdu.log.TestResultsLogger;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -35,7 +34,7 @@ public class BaseTest  {
         chromeOptions.addArguments("--disable-translate");
         driver = new ChromeDriver(chromeOptions);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        System.out.println("Tests initiated.");
+
 
         driver.get(baseURL);
         driver.manage().window().maximize();
@@ -48,7 +47,7 @@ public class BaseTest  {
     public static void tearDown() throws InterruptedException {
         Thread.sleep(1000);
         driver.quit();
-        System.out.println("Tests finished");
+
     }
 
    }
