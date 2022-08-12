@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) {
+
     }
 
     public void login(String eMail, String password) {
@@ -14,6 +15,5 @@ public class LoginPage extends BasePage {
         sendKeys(By.id("login-password"),password);
         click(By.xpath("//button[contains(@class,'login')]"));
     }
-
 
 }

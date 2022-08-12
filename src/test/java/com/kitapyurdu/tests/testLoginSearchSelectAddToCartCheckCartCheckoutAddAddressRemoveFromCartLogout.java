@@ -5,11 +5,9 @@ import com.kitapyurdu.pages.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
 public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFromCartLogout extends BaseTest {
     //Scenario 2
-
 
     HomePage homePage = new HomePage(driver);
     ShipmentPage shipmentPage = new ShipmentPage(driver);
@@ -20,11 +18,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     AddressPage addressPage = new AddressPage(driver);
     CartPage cartPage = new CartPage(driver);
     CheckOutPage checkOutPage = new CheckOutPage(driver);
-
     public static String bookDetailPagePrice;
-
-
-
 
     @Test
     @Order(1)
@@ -34,7 +28,6 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
         Thread.sleep(2000);
         Assertions.assertTrue(userPage.isLoggedIn(),"User Login Failed");
     }
-
 
     @Test
     @Order(2)
@@ -49,7 +42,6 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
         booksPage.chooseRandomBook(2);
         bookDetailPagePrice = bookDetailPage.getPriceForCheck();
         Assertions.assertTrue(bookDetailPage.isOnDetailPage(),"Not on Book Detail Page");
-
     }
 
     @Test
@@ -70,7 +62,6 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
         Thread.sleep(2000);
         Assertions.assertTrue(cartPage.checkDoubleCart(),"Invalid Cart");
     }
-
 
     @Test
     @Order(6)
@@ -96,7 +87,6 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
         checkOutPage.backToCartPage();
         cartPage.clearCart();
         Assertions.assertTrue(cartPage.checkCartForEmpty(),"Cart Is Not Empty");
-
     }
 
     @Test
@@ -112,4 +102,5 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
         homePage.exit();
         Assertions.assertTrue(homePage.checkLogout(),"Logout Failed");
     }
+
 }

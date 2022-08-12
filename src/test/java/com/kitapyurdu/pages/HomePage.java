@@ -30,10 +30,10 @@ public class HomePage extends BasePage {
         Thread.sleep(1000);
         action.moveToElement(targetElement).perform();
         targetElement.click();
-
     }
 
     public boolean checkLogout() {
         return findElement(By.xpath("//a[contains(@href,'login')]")).getText().equals("Giriş Yap");
     }
+
 }

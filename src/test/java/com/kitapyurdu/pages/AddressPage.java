@@ -32,8 +32,8 @@ public class AddressPage extends BasePage {
         click(By.id("button-checkout-continue"));
     }
 
-
     public boolean checkAddress() {
         return checkURL("https://www.kitapyurdu.com/index.php?route=checkout/checkout#ShippingMethod");
     }
+
 }

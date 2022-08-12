@@ -19,7 +19,6 @@ public class BasePage extends BaseTest {
         actions.moveToElement(findElement(locator)).build().perform();
     }
 
-
     public WebElement findElement(By locator) {
         return driver.findElement(locator);
     }
@@ -27,10 +26,12 @@ public class BasePage extends BaseTest {
     public List<WebElement> findAllElements(By locator) {
         return driver.findElements(locator);
     }
+
     public void click(By locator) {
         scrollWithAction(locator);
         findElement(locator).click();
     }
+
     public void sendKeys(By locator , String text) {
         scrollWithAction(locator);
         findElement(locator).clear();
@@ -48,6 +49,5 @@ public class BasePage extends BaseTest {
     public boolean isDisplayed(By locator) {
         return findElement(locator).isDisplayed();
     }
-
 
 }

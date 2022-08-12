@@ -19,5 +19,6 @@ public class ShipmentPage extends BasePage {
     public boolean checkShipmentMethod() {
         return checkURL("https://www.kitapyurdu.com/index.php?route=checkout/checkout#PaymentMethod");
     }
+
 }
 

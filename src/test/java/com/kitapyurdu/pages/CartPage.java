@@ -14,7 +14,6 @@ public class CartPage extends BasePage {
         findAllElements(By.xpath("//a[contains(@href,'route=checkout') and @class=\"button red\"]")).get(1).click();
     }
 
-
     public void makeItDouble() throws InterruptedException {
         sendKeys(By.name("quantity"),"2");
         click(By.xpath("//i[contains(@onclick,'cart')]"));
@@ -60,4 +59,5 @@ public class CartPage extends BasePage {
        }
         return false;
     }
+
 }

@@ -12,17 +12,13 @@ public class BooksPage extends BasePage {
     public BooksPage(WebDriver driver) {
     }
 
-
-
     public void chooseBook(int page, int index) throws InterruptedException {
         List<WebElement> pages = findAllElements(By.xpath("//a[contains(@href,'search&page')]"));
         Thread.sleep(1000);
         pages.get(page-2).click();
         Thread.sleep(1000);
-
         List<WebElement> books = findAllElements(By.xpath("//img[contains(@src,'wi:100')]"));
         Thread.sleep(1000);
-
         books.get(index-1).click();
         Thread.sleep(1000);
 
@@ -33,7 +29,6 @@ public class BooksPage extends BasePage {
         Thread.sleep(1000);
         pages.get(page-2).click();
         Thread.sleep(1000);
-
         List<WebElement> books = findAllElements(By.xpath("//img[contains(@src,'wi:100')]"));
         Thread.sleep(1000);
         Random random = new Random();
@@ -44,6 +39,6 @@ public class BooksPage extends BasePage {
 
     public boolean checkSearch(String text) {
         return driver.getCurrentUrl().contains(text);
-
     }
+
 }

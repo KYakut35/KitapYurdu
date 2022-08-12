@@ -43,4 +43,5 @@ public class BookDetailPage extends BasePage {
         String detailPagePrice = findElement(By.xpath("//div[@class=\"price__item\"]")).getText();
         return detailPagePrice;
     }
+
 }

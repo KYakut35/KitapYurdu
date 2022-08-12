@@ -17,12 +17,10 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
    BookDetailPage bookDetailPage = new BookDetailPage(driver);
    FavoritePage favoritePage = new FavoritePage(driver);
 
-
     @Test
     @Order(1)
     public void testCheckHomePage() {
         Assertions.assertTrue(basePage.checkURL("https://www.kitapyurdu.com/"));
-
     }
 
     @Test
@@ -32,8 +30,6 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
         loginPage.login("kyakut35@gmail.com","12345678"); // Email , Password
         Thread.sleep(2000);
         Assertions.assertTrue(userPage.isLoggedIn(),"User Login Failed");
-
-
     }
 
     @Test
@@ -41,7 +37,6 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     public void testSearchBook() throws InterruptedException {
        homePage.searchBook("Sanat");
         Assertions.assertTrue(booksPage.checkSearch("Sanat"),"Book Search Failed");
-
     }
 
     @Test
@@ -49,7 +44,6 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     public void testSelectBook() throws InterruptedException {
         booksPage.chooseBook(2,3); // 2.Page , 3.Book
         Assertions.assertTrue(bookDetailPage.isOnDetailPage(),"Not on Book Detail Page");
-
     }
 
     @Test
@@ -57,7 +51,6 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     public void testAddBookToFavorites() {
         bookDetailPage.addToFavorites();
         Assertions.assertTrue(favoritePage.checkFavorites(),"Favorites List is Empty");
-
     }
 
     @Test
@@ -66,7 +59,6 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
         favoritePage.removeFromFavorites();
         Thread.sleep(3000);
         Assertions.assertTrue(favoritePage.checkFavoritesForEmpty(),"Favorites List is not Empty");
-
     }
 
     @Test
@@ -74,6 +66,6 @@ public class TestLoginSearchSelectAddToFavoritesRemoveFromFavoritesLogout extend
     public void testLogout() throws InterruptedException {
         homePage.exit();
         Assertions.assertTrue(homePage.checkLogout(),"Logout Failed");
-
     }
+
 }
