@@ -53,7 +53,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     public void testAddToCart() throws InterruptedException {
         bookDetailPage.addToCart();
         Thread.sleep(2000);
-        //Need to rework Assertions.assertTrue(cartPage.checkCart(1),"Invalid Cart");
+        Assertions.assertTrue(cartPage.checkCart(1),"Invalid Cart");
     }
 
     @Test
@@ -61,7 +61,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     public void testDoubleTheCart() throws InterruptedException {
         cartPage.makeItDouble();
         Thread.sleep(2000);
-        // Need to rework Assertions.assertTrue(cartPage.checkCart(2),"Invalid Cart");
+        Assertions.assertTrue(cartPage.checkDoubleCart(),"Invalid Cart");
     }
 
 
@@ -77,7 +77,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     @Order(7)
     public void testSelectShipmentCompany() throws InterruptedException {
         shipmentPage.selectShipmentCompany();
-        //Will be added Assertions.assertTrue(shipmentPage.checkShipmentMethod(),"Invalid Cart");
+        //Assertions.assertTrue(shipmentPage.checkShipmentMethod(),"Invalid Shipment Selection");
     }
 
     @Test
@@ -85,7 +85,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     public void testRemoveFromCart() throws InterruptedException {
         checkOutPage.backToCartPage();
         cartPage.clearCart();
-        //Need to rework Assertions.assertTrue(cartPage.checkCartForEmpty(),"Cart Is Not Empty");
+        Assertions.assertTrue(cartPage.checkCartForEmpty(),"Cart Is Not Empty");
 
     }
 

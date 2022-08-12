@@ -34,7 +34,7 @@ public class BookDetailPage extends BasePage {
 
     public void addToCart() throws InterruptedException {
         click(By.id("button-cart"));
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         goToCart();
 
     }

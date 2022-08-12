@@ -16,7 +16,7 @@ public class ShipmentPage extends BasePage {
     }
 
     public boolean checkShipmentMethod() {
-        return true;
+      return true;
     }
 }
 

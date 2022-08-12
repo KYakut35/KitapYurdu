@@ -15,10 +15,9 @@ public class CartPage extends BasePage {
     }
 
 
-    public void makeItDouble() {
+    public void makeItDouble() throws InterruptedException {
         sendKeys(By.name("quantity"),"2");
         click(By.xpath("//i[contains(@onclick,'cart')]"));
-        goToCheckoutPage();
     }
 
     public void clearCart() throws InterruptedException {
@@ -28,7 +27,9 @@ public class CartPage extends BasePage {
 
     public boolean checkCart(int bookCount) throws InterruptedException {
         Thread.sleep(2000);
-        if ((findElement(By.name("quantity")).getText().equals(bookCount)) || (findElement(By.name("quantity")).getText().equals("2"))) {
+        int count = findAllElements(By.xpath("//img[@style=\"max-height:80px;\"]")).size();
+        if ((count == bookCount)) {
+
             return true;
         }
         else {
@@ -38,6 +39,17 @@ public class CartPage extends BasePage {
 
     public boolean checkCartForEmpty() throws InterruptedException {
         Thread.sleep(2000);
-        return !isDisplayed(By.xpath("//img[contains(@src,'wi:40')]"));
+        if (findElement(By.xpath("//div[contains(@style,\"20\")]")).getText().equals("Sepetiniz boş")) {
+            return true;
+        }
+        return false;
+    }
+
+    public boolean checkDoubleCart() {
+        if(findElement(By.xpath("//input[@value=\"2\"]")).isDisplayed()) {
+            goToCheckoutPage();
+            return true;
+        }
+        return false;
     }
 }
