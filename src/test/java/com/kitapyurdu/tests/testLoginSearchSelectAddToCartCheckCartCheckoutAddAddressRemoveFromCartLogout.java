@@ -79,7 +79,8 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     public void testSelectShipmentCompany() throws InterruptedException {
         Thread.sleep(1000);
         shipmentPage.selectShipmentCompany();
-        //Assertions.assertTrue(shipmentPage.checkShipmentMethod(),"Invalid Shipment Selection");
+        Thread.sleep(1000);
+        Assertions.assertTrue(shipmentPage.checkShipmentMethod(),"Invalid Shipment Selection");
     }
 
     @Test

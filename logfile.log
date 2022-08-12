@@ -919,3 +919,43 @@ Session ID: b8b50b77ea8ad814b1fdadcc2548ee26
 2022-08-12 14:24:58,260 INFO  [Log]               testLogout() PASSED 
 2022-08-12 14:24:58,260 INFO  [Log] ************* testLogout() Test Finished *************
  
+2022-08-12 14:28:32,675 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-12 14:28:32,675 INFO  [Log]               testCheckLogin() PASSED 
+2022-08-12 14:28:32,675 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-12 14:28:37,776 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-12 14:28:37,776 INFO  [Log]               testSearchBook() PASSED 
+2022-08-12 14:28:37,777 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-12 14:28:44,617 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-12 14:28:44,617 INFO  [Log]               testSelectRandomBook() PASSED 
+2022-08-12 14:28:44,618 INFO  [Log] ************* testSelectRandomBook() Test Finished *************
+ 
+2022-08-12 14:28:53,304 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-12 14:28:53,305 ERROR [Log]               testAddToCart() FAILED with cause : Invalid Cart ==> expected: <true> but was: <false> 
+2022-08-12 14:28:53,305 INFO  [Log] ************* testAddToCart() Test Finished *************
+ 
+2022-08-12 14:28:56,563 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-12 14:28:56,563 INFO  [Log]               testDoubleTheCart() PASSED 
+2022-08-12 14:28:56,563 INFO  [Log] ************* testDoubleTheCart() Test Finished *************
+ 
+2022-08-12 14:29:07,618 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-12 14:29:07,618 INFO  [Log]               testAddAddress() PASSED 
+2022-08-12 14:29:07,618 INFO  [Log] ************* testAddAddress() Test Finished *************
+ 
+2022-08-12 14:29:12,152 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-12 14:29:12,152 INFO  [Log]               testSelectShipmentCompany() PASSED 
+2022-08-12 14:29:12,152 INFO  [Log] ************* testSelectShipmentCompany() Test Finished *************
+ 
+2022-08-12 14:29:19,723 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-12 14:29:19,723 INFO  [Log]               testRemoveFromCart() PASSED 
+2022-08-12 14:29:19,723 INFO  [Log] ************* testRemoveFromCart() Test Finished *************
+ 
+2022-08-12 14:29:23,666 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-12 14:29:23,666 INFO  [Log]               testDeleteAddress() PASSED 
+2022-08-12 14:29:23,666 INFO  [Log] ************* testDeleteAddress() Test Finished *************
+ 
+2022-08-12 14:29:26,936 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-12 14:29:26,936 INFO  [Log]               testLogout() PASSED 
+2022-08-12 14:29:26,937 INFO  [Log] ************* testLogout() Test Finished *************
+ 

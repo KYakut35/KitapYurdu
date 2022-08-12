@@ -13,10 +13,11 @@ public class ShipmentPage extends BasePage {
         Thread.sleep(1000);
         click(By.xpath("//input[@value=\"23-non\"]"));
         click(By.id("button-checkout-continue"));
+        Thread.sleep(1000);
     }
 
     public boolean checkShipmentMethod() {
-      return true;
+        return checkURL("https://www.kitapyurdu.com/index.php?route=checkout/checkout#PaymentMethod");
     }
 }
 
