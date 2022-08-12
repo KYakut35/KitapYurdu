@@ -52,4 +52,12 @@ public class CartPage extends BasePage {
         }
         return false;
     }
+
+    public boolean checkPrice(String price) {
+       String cartPagePrice = findElement(By.xpath("//span[@class=\"price-new\"]")).getText();
+       if (cartPagePrice.equals(price)) {
+           return true;
+       }
+        return false;
+    }
 }

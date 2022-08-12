@@ -5,6 +5,7 @@ import com.kitapyurdu.pages.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 
 public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFromCartLogout extends BaseTest {
     //Scenario 2
@@ -19,6 +20,8 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     AddressPage addressPage = new AddressPage(driver);
     CartPage cartPage = new CartPage(driver);
     CheckOutPage checkOutPage = new CheckOutPage(driver);
+
+    public static String bookDetailPagePrice;
 
 
 
@@ -44,6 +47,7 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     @Order(3)
     public void testSelectRandomBook() throws InterruptedException {
         booksPage.chooseRandomBook(2);
+        bookDetailPagePrice = bookDetailPage.getPriceForCheck();
         Assertions.assertTrue(bookDetailPage.isOnDetailPage(),"Not on Book Detail Page");
 
     }
@@ -51,7 +55,10 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     @Test
     @Order(4)
     public void testAddToCart() throws InterruptedException {
+
         bookDetailPage.addToCart();
+        Thread.sleep(2000);
+        Assertions.assertTrue(cartPage.checkPrice(bookDetailPagePrice),"Do Not Matched");
         Thread.sleep(2000);
         Assertions.assertTrue(cartPage.checkCart(1),"Invalid Cart");
     }

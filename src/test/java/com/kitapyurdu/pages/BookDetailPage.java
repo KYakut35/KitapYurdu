@@ -38,4 +38,9 @@ public class BookDetailPage extends BasePage {
         goToCart();
 
     }
+
+    public String getPriceForCheck() {
+        String detailPagePrice = findElement(By.xpath("//div[@class=\"price__item\"]")).getText();
+        return detailPagePrice;
+    }
 }
