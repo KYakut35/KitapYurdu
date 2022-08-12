@@ -1,22 +1,28 @@
 package com.kitapyurdu.driver;
+import com.kitapyurdu.log.Log;
 import com.kitapyurdu.log.TestResultsLogger;
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.junit.jupiter.api.*;
+
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @ExtendWith(TestResultsLogger.class)
-public class BaseTest {
+public class BaseTest  {
 
     public static WebDriver driver;
     public static WebDriverWait wait;
+
+
 
     @BeforeAll
     public static void setup() {

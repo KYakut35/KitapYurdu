@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
 public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFromCartLogout extends BaseTest {
+    //Scenario 2
+
 
     HomePage homePage = new HomePage(driver);
     ShipmentPage shipmentPage = new ShipmentPage(driver);
@@ -17,6 +19,8 @@ public class testLoginSearchSelectAddToCartCheckCartCheckoutAddAddressRemoveFrom
     AddressPage addressPage = new AddressPage(driver);
     CartPage cartPage = new CartPage(driver);
     CheckOutPage checkOutPage = new CheckOutPage(driver);
+
+
 
 
     @Test
