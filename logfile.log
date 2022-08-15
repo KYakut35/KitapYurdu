@@ -1103,3 +1103,215 @@ Session ID: 83c6c06408fc4b4d8d6cf1193e75cf1d
 2022-08-12 16:05:38,274 INFO  [Log]               testLogout() PASSED 
 2022-08-12 16:05:38,274 INFO  [Log] ************* testLogout() Test Finished *************
  
+2022-08-15 09:46:34,113 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-15 09:46:34,113 INFO  [Log]               testCheckLogin() PASSED 
+2022-08-15 09:46:34,113 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-15 09:46:38,664 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-15 09:46:38,665 INFO  [Log]               testSearchBook() PASSED 
+2022-08-15 09:46:38,665 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-15 09:46:45,657 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-15 09:46:45,657 INFO  [Log]               testSelectRandomBook() PASSED 
+2022-08-15 09:46:45,657 INFO  [Log] ************* testSelectRandomBook() Test Finished *************
+ 
+2022-08-15 09:46:56,507 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-15 09:46:56,507 INFO  [Log]               testAddToCart() PASSED 
+2022-08-15 09:46:56,508 INFO  [Log] ************* testAddToCart() Test Finished *************
+ 
+2022-08-15 09:46:59,672 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-15 09:46:59,673 INFO  [Log]               testDoubleTheCart() PASSED 
+2022-08-15 09:46:59,673 INFO  [Log] ************* testDoubleTheCart() Test Finished *************
+ 
+2022-08-15 09:47:09,573 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-15 09:47:09,573 INFO  [Log]               testAddAddress() PASSED 
+2022-08-15 09:47:09,573 INFO  [Log] ************* testAddAddress() Test Finished *************
+ 
+2022-08-15 09:47:13,998 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-15 09:47:13,998 INFO  [Log]               testSelectShipmentCompany() PASSED 
+2022-08-15 09:47:13,998 INFO  [Log] ************* testSelectShipmentCompany() Test Finished *************
+ 
+2022-08-15 09:47:20,945 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-15 09:47:20,945 INFO  [Log]               testRemoveFromCart() PASSED 
+2022-08-15 09:47:20,945 INFO  [Log] ************* testRemoveFromCart() Test Finished *************
+ 
+2022-08-15 09:47:23,021 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-15 09:47:23,021 INFO  [Log]               testDeleteAddress() PASSED 
+2022-08-15 09:47:23,021 INFO  [Log] ************* testDeleteAddress() Test Finished *************
+ 
+2022-08-15 09:47:25,050 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-15 09:47:25,050 INFO  [Log]               testLogout() PASSED 
+2022-08-15 09:47:25,050 INFO  [Log] ************* testLogout() Test Finished *************
+ 
+2022-08-15 14:48:29,217 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-15 14:48:29,217 ERROR [Log]               testCheckLogin() FAILED with cause : User Login Failed ==> expected: <true> but was: <false> 
+2022-08-15 14:48:29,218 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-15 14:48:33,671 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-15 14:48:33,671 ERROR [Log]               testSearchBook() FAILED with cause : element click intercepted: Element <span class="common-sprite button-search"></span> is not clickable at point (892, 118). Other element would receive the click: <div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.5;"></div>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283a2e8dc0816dd16e5f377bcd76b037, clickElement {id=70343050-9e23-4f8e-a188-8777c27c4e7c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (283a2e8dc0816dd16e5f377bcd76b037)] -> xpath: //span[contains(@class,'search')]]
+Session ID: 283a2e8dc0816dd16e5f377bcd76b037 
+2022-08-15 14:48:33,671 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-15 14:48:38,642 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-15 14:48:38,642 ERROR [Log]               testSelectRandomBook() FAILED with cause : Index: 0 
+2022-08-15 14:48:38,642 INFO  [Log] ************* testSelectRandomBook() Test Finished *************
+ 
+2022-08-15 14:48:38,642 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-15 14:48:38,642 ERROR [Log]               testAddToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283a2e8dc0816dd16e5f377bcd76b037, findElement {using=id, value=button-cart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 283a2e8dc0816dd16e5f377bcd76b037 
+2022-08-15 14:48:38,642 INFO  [Log] ************* testAddToCart() Test Finished *************
+ 
+2022-08-15 14:48:38,658 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-15 14:48:38,658 ERROR [Log]               testDoubleTheCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283a2e8dc0816dd16e5f377bcd76b037, findElement {using=name, value=quantity}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 283a2e8dc0816dd16e5f377bcd76b037 
+2022-08-15 14:48:38,658 INFO  [Log] ************* testDoubleTheCart() Test Finished *************
+ 
+2022-08-15 14:48:39,683 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-15 14:48:39,683 ERROR [Log]               testAddAddress() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283a2e8dc0816dd16e5f377bcd76b037, findElement {using=xpath, value=//a[contains(@onclick,'new')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 283a2e8dc0816dd16e5f377bcd76b037 
+2022-08-15 14:48:39,683 INFO  [Log] ************* testAddAddress() Test Finished *************
+ 
+2022-08-15 14:48:41,719 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-15 14:48:41,719 ERROR [Log]               testSelectShipmentCompany() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283a2e8dc0816dd16e5f377bcd76b037, findElement {using=xpath, value=//input[@value="23-non"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 283a2e8dc0816dd16e5f377bcd76b037 
+2022-08-15 14:48:41,719 INFO  [Log] ************* testSelectShipmentCompany() Test Finished *************
+ 
+2022-08-15 14:48:43,729 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-15 14:48:43,729 ERROR [Log]               testRemoveFromCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283a2e8dc0816dd16e5f377bcd76b037, findElement {using=id, value=cart-header}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 283a2e8dc0816dd16e5f377bcd76b037 
+2022-08-15 14:48:43,729 INFO  [Log] ************* testRemoveFromCart() Test Finished *************
+ 
+2022-08-15 14:48:43,738 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-15 14:48:43,739 ERROR [Log]               testDeleteAddress() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283a2e8dc0816dd16e5f377bcd76b037, findElement {using=xpath, value=//a[contains(@href,'route=account/account') and @class="common-sprite"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 283a2e8dc0816dd16e5f377bcd76b037 
+2022-08-15 14:48:43,739 INFO  [Log] ************* testDeleteAddress() Test Finished *************
+ 
+2022-08-15 14:48:43,751 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-15 14:48:43,751 ERROR [Log]               testLogout() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [283a2e8dc0816dd16e5f377bcd76b037, findElement {using=xpath, value=//a[contains(@href,'route=account/account') and @class="common-sprite"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 283a2e8dc0816dd16e5f377bcd76b037 
+2022-08-15 14:48:43,751 INFO  [Log] ************* testLogout() Test Finished *************
+ 
+2022-08-15 14:49:07,406 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-15 14:49:07,406 ERROR [Log]               testCheckLogin() FAILED with cause : User Login Failed ==> expected: <true> but was: <false> 
+2022-08-15 14:49:07,406 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-15 14:49:13,350 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-15 14:49:13,350 INFO  [Log]               testSearchBook() PASSED 
+2022-08-15 14:49:13,350 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-15 14:49:21,285 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-15 14:49:21,285 INFO  [Log]               testSelectRandomBook() PASSED 
+2022-08-15 14:49:21,285 INFO  [Log] ************* testSelectRandomBook() Test Finished *************
+ 
+2022-08-15 14:49:30,931 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-15 14:49:30,931 INFO  [Log]               testAddToCart() PASSED 
+2022-08-15 14:49:30,931 INFO  [Log] ************* testAddToCart() Test Finished *************
+ 
+2022-08-15 14:49:33,948 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-15 14:49:33,948 INFO  [Log]               testDoubleTheCart() PASSED 
+2022-08-15 14:49:33,948 INFO  [Log] ************* testDoubleTheCart() Test Finished *************
+ 
+2022-08-15 14:49:43,959 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-15 14:49:43,959 INFO  [Log]               testAddAddress() PASSED 
+2022-08-15 14:49:43,959 INFO  [Log] ************* testAddAddress() Test Finished *************
+ 
+2022-08-15 14:49:48,381 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-15 14:49:48,381 INFO  [Log]               testSelectShipmentCompany() PASSED 
+2022-08-15 14:49:48,381 INFO  [Log] ************* testSelectShipmentCompany() Test Finished *************
+ 
+2022-08-15 14:49:55,323 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-15 14:49:55,324 INFO  [Log]               testRemoveFromCart() PASSED 
+2022-08-15 14:49:55,324 INFO  [Log] ************* testRemoveFromCart() Test Finished *************
+ 
+2022-08-15 14:49:57,227 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-15 14:49:57,227 INFO  [Log]               testDeleteAddress() PASSED 
+2022-08-15 14:49:57,227 INFO  [Log] ************* testDeleteAddress() Test Finished *************
+ 
+2022-08-15 14:49:59,403 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-15 14:49:59,403 INFO  [Log]               testLogout() PASSED 
+2022-08-15 14:49:59,403 INFO  [Log] ************* testLogout() Test Finished *************
+ 
+2022-08-15 15:10:43,697 INFO  [Log] ************* testCheckHomePage() Test Initiated ************* 
+2022-08-15 15:10:43,698 INFO  [Log]               testCheckHomePage() PASSED 
+2022-08-15 15:10:43,698 INFO  [Log] ************* testCheckHomePage() Test Finished *************
+ 
+2022-08-15 15:10:47,676 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-15 15:10:47,676 INFO  [Log]               testCheckLogin() PASSED 
+2022-08-15 15:10:47,676 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-15 15:10:52,372 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-15 15:10:52,372 INFO  [Log]               testSearchBook() PASSED 
+2022-08-15 15:10:52,372 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-15 15:10:59,562 INFO  [Log] ************* testSelectBook() Test Initiated ************* 
+2022-08-15 15:10:59,562 INFO  [Log]               testSelectBook() PASSED 
+2022-08-15 15:10:59,562 INFO  [Log] ************* testSelectBook() Test Finished *************
+ 
+2022-08-15 15:11:01,610 INFO  [Log] ************* testAddBookToFavorites() Test Initiated ************* 
+2022-08-15 15:11:01,610 INFO  [Log]               testAddBookToFavorites() PASSED 
+2022-08-15 15:11:01,610 INFO  [Log] ************* testAddBookToFavorites() Test Finished *************
+ 
+2022-08-15 15:11:04,835 INFO  [Log] ************* testRemoveBookFromFavorites() Test Initiated ************* 
+2022-08-15 15:11:04,835 INFO  [Log]               testRemoveBookFromFavorites() PASSED 
+2022-08-15 15:11:04,835 INFO  [Log] ************* testRemoveBookFromFavorites() Test Finished *************
+ 
+2022-08-15 15:11:08,518 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-15 15:11:08,520 INFO  [Log]               testLogout() PASSED 
+2022-08-15 15:11:08,520 INFO  [Log] ************* testLogout() Test Finished *************
+ 
