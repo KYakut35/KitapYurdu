@@ -18,16 +18,13 @@ public class TestResultsLogger implements TestWatcher {
     public void testSuccessful(ExtensionContext context) {
         String testName = context.getDisplayName();
         this.log.info("************* " + testName + " Test Initiated *************");
-        this.log.info("              " + testName + " PASSED");
-        this.log.info("************* " + testName + " Test Finished *************\n");
+
     }
 
     public void testAborted(ExtensionContext context, Throwable cause) {
         String testName = context.getDisplayName();
         String testCause = cause.getMessage();
         this.log.info("************* " + testName + " Test Initiated *************");
-        this.log.warn("              " + testName + " ABORTED with cause : " + testCause);
-        this.log.info("************* " + testName + " Test Aborted *************\n");
 
     }
 
@@ -35,10 +32,5 @@ public class TestResultsLogger implements TestWatcher {
         String testName = context.getDisplayName();
         String testCause = cause.getMessage();
         this.log.info("************* " + testName + " Test Initiated *************");
-        this.log.error("              " + testName + " FAILED with cause : " + testCause);
-        this.log.info("************* " + testName + " Test Finished *************\n");
-
-
-
     }
 }

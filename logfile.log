@@ -1315,3 +1315,427 @@ Session ID: 283a2e8dc0816dd16e5f377bcd76b037
 2022-08-15 15:11:08,520 INFO  [Log]               testLogout() PASSED 
 2022-08-15 15:11:08,520 INFO  [Log] ************* testLogout() Test Finished *************
  
+2022-08-15 15:25:45,681 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementine tiklandi 
+2022-08-15 15:25:47,176 INFO  [BasePage] By.xpath: //button[contains(@class,'login')]Elementine tiklandi 
+2022-08-15 15:25:49,251 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-15 15:25:49,251 INFO  [Log]               testCheckLogin() PASSED 
+2022-08-15 15:25:49,252 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-15 15:25:53,859 INFO  [BasePage] By.xpath: //span[contains(@class,'search')]Elementine tiklandi 
+2022-08-15 15:25:53,872 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-15 15:25:53,872 INFO  [Log]               testSearchBook() PASSED 
+2022-08-15 15:25:53,872 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-15 15:26:20,393 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-15 15:26:20,394 ERROR [Log]               testSelectRandomBook() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'wi:220')]"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44091a57221ab72a72297a211cb71b02, findElement {using=xpath, value=//img[contains(@src,'wi:220')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54929}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54929/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 44091a57221ab72a72297a211cb71b02 
+2022-08-15 15:26:20,396 INFO  [Log] ************* testSelectRandomBook() Test Finished *************
+ 
+2022-08-15 15:26:20,843 INFO  [BasePage] By.id: button-cartElementine tiklandi 
+2022-08-15 15:26:23,207 INFO  [BasePage] By.id: cart-itemsElementine tiklandi 
+2022-08-15 15:26:24,997 INFO  [BasePage] By.id: js-cartElementine tiklandi 
+2022-08-15 15:26:31,130 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-15 15:26:31,131 INFO  [Log]               testAddToCart() PASSED 
+2022-08-15 15:26:31,131 INFO  [Log] ************* testAddToCart() Test Finished *************
+ 
+2022-08-15 15:26:32,002 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')]Elementine tiklandi 
+2022-08-15 15:26:35,081 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-15 15:26:35,081 INFO  [Log]               testDoubleTheCart() PASSED 
+2022-08-15 15:26:35,081 INFO  [Log] ************* testDoubleTheCart() Test Finished *************
+ 
+2022-08-15 15:26:36,507 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')]Elementine tiklandi 
+2022-08-15 15:26:41,379 INFO  [BasePage] By.id: address_type_2Elementine tiklandi 
+2022-08-15 15:26:47,709 INFO  [BasePage] By.id: button-checkout-continueElementine tiklandi 
+2022-08-15 15:26:48,731 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-15 15:26:48,731 INFO  [Log]               testAddAddress() PASSED 
+2022-08-15 15:26:48,732 INFO  [Log] ************* testAddAddress() Test Finished *************
+ 
+2022-08-15 15:26:51,092 INFO  [BasePage] By.xpath: //input[@value="23-non"]Elementine tiklandi 
+2022-08-15 15:26:51,432 INFO  [BasePage] By.id: button-checkout-continueElementine tiklandi 
+2022-08-15 15:26:53,469 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-15 15:26:53,470 INFO  [Log]               testSelectShipmentCompany() PASSED 
+2022-08-15 15:26:53,470 INFO  [Log] ************* testSelectShipmentCompany() Test Finished *************
+ 
+2022-08-15 15:26:56,956 INFO  [BasePage] By.id: cart-headerElementine tiklandi 
+2022-08-15 15:26:59,321 INFO  [BasePage] By.xpath: //i[@title="Kaldır"]Elementine tiklandi 
+2022-08-15 15:27:01,417 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-15 15:27:01,418 INFO  [Log]               testRemoveFromCart() PASSED 
+2022-08-15 15:27:01,418 INFO  [Log] ************* testRemoveFromCart() Test Finished *************
+ 
+2022-08-15 15:27:02,720 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementine tiklandi 
+2022-08-15 15:27:03,874 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link']Elementine tiklandi 
+2022-08-15 15:27:04,819 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-15 15:27:04,820 INFO  [Log]               testDeleteAddress() PASSED 
+2022-08-15 15:27:04,820 INFO  [Log] ************* testDeleteAddress() Test Finished *************
+ 
+2022-08-15 15:27:07,843 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-15 15:27:07,843 INFO  [Log]               testLogout() PASSED 
+2022-08-15 15:27:07,844 INFO  [Log] ************* testLogout() Test Finished *************
+ 
+2022-08-15 16:17:44,237 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementi bulundu. 
+2022-08-15 16:17:44,376 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:17:44,376 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementi bulundu. 
+2022-08-15 16:17:45,460 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementine tiklandi 
+2022-08-15 16:17:45,461 INFO  [BasePage] By.id: login-emailElementi bulundu. 
+2022-08-15 16:17:45,596 INFO  [BasePage] By.id: login-emailElementine scroll islemi uygulandi. 
+2022-08-15 16:17:45,596 INFO  [BasePage] By.id: login-emailElementi bulundu. 
+2022-08-15 16:17:45,630 INFO  [BasePage] By.id: login-emailElementi bulundu. 
+2022-08-15 16:17:45,693 INFO  [BasePage] By.id: login-emailElementine 'kyakut35@gmail.com' yazildi. 
+2022-08-15 16:17:45,693 INFO  [BasePage] By.id: login-passwordElementi bulundu. 
+2022-08-15 16:17:45,829 INFO  [BasePage] By.id: login-passwordElementine scroll islemi uygulandi. 
+2022-08-15 16:17:45,829 INFO  [BasePage] By.id: login-passwordElementi bulundu. 
+2022-08-15 16:17:45,861 INFO  [BasePage] By.id: login-passwordElementi bulundu. 
+2022-08-15 16:17:45,904 INFO  [BasePage] By.id: login-passwordElementine '12345678' yazildi. 
+2022-08-15 16:17:45,904 INFO  [BasePage] By.xpath: //button[contains(@class,'login')]Elementi bulundu. 
+2022-08-15 16:17:46,034 INFO  [BasePage] By.xpath: //button[contains(@class,'login')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:17:46,035 INFO  [BasePage] By.xpath: //button[contains(@class,'login')]Elementi bulundu. 
+2022-08-15 16:17:46,100 INFO  [BasePage] By.xpath: //button[contains(@class,'login')]Elementine tiklandi 
+2022-08-15 16:17:48,111 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-15 16:17:48,111 INFO  [Log]               testCheckLogin() PASSED 
+2022-08-15 16:17:48,111 INFO  [Log] ************* testCheckLogin() Test Finished *************
+ 
+2022-08-15 16:17:51,133 INFO  [BasePage] By.cssSelector: input#search-inputElementi bulundu. 
+2022-08-15 16:17:51,260 INFO  [BasePage] By.cssSelector: input#search-inputElementine scroll islemi uygulandi. 
+2022-08-15 16:17:51,260 INFO  [BasePage] By.cssSelector: input#search-inputElementi bulundu. 
+2022-08-15 16:17:51,298 INFO  [BasePage] By.cssSelector: input#search-inputElementi bulundu. 
+2022-08-15 16:17:51,357 INFO  [BasePage] By.cssSelector: input#search-inputElementine 'Felsefe' yazildi. 
+2022-08-15 16:17:51,357 INFO  [BasePage] By.xpath: //span[contains(@class,'search')]Elementi bulundu. 
+2022-08-15 16:17:51,497 INFO  [BasePage] By.xpath: //span[contains(@class,'search')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:17:51,497 INFO  [BasePage] By.xpath: //span[contains(@class,'search')]Elementi bulundu. 
+2022-08-15 16:17:52,512 INFO  [BasePage] By.xpath: //span[contains(@class,'search')]Elementine tiklandi 
+2022-08-15 16:17:52,518 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-15 16:17:52,519 INFO  [Log]               testSearchBook() PASSED 
+2022-08-15 16:17:52,519 INFO  [Log] ************* testSearchBook() Test Finished *************
+ 
+2022-08-15 16:17:52,521 INFO  [BasePage] By.xpath: //a[contains(@href,'search&page')]Elementler bulundu. 
+2022-08-15 16:17:55,955 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')]Elementler bulundu. 
+2022-08-15 16:17:58,923 INFO  [BasePage] By.xpath: //div[@class="price__item"]Elementi bulundu. 
+2022-08-15 16:17:58,939 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:220')]Elementi bulundu. 
+2022-08-15 16:17:58,990 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-15 16:17:58,990 INFO  [Log]               testSelectRandomBook() PASSED 
+2022-08-15 16:17:58,990 INFO  [Log] ************* testSelectRandomBook() Test Finished *************
+ 
+2022-08-15 16:17:58,990 INFO  [BasePage] By.id: button-cartElementi bulundu. 
+2022-08-15 16:17:59,136 INFO  [BasePage] By.id: button-cartElementine scroll islemi uygulandi. 
+2022-08-15 16:17:59,136 INFO  [BasePage] By.id: button-cartElementi bulundu. 
+2022-08-15 16:17:59,192 INFO  [BasePage] By.id: button-cartElementine tiklandi 
+2022-08-15 16:18:01,204 INFO  [BasePage] By.id: cart-itemsElementi bulundu. 
+2022-08-15 16:18:01,344 INFO  [BasePage] By.id: cart-itemsElementine scroll islemi uygulandi. 
+2022-08-15 16:18:01,344 INFO  [BasePage] By.id: cart-itemsElementi bulundu. 
+2022-08-15 16:18:01,383 INFO  [BasePage] By.id: cart-itemsElementine tiklandi 
+2022-08-15 16:18:01,383 INFO  [BasePage] By.id: js-cartElementi bulundu. 
+2022-08-15 16:18:01,777 INFO  [BasePage] By.id: js-cartElementine scroll islemi uygulandi. 
+2022-08-15 16:18:01,778 INFO  [BasePage] By.id: js-cartElementi bulundu. 
+2022-08-15 16:18:02,712 INFO  [BasePage] By.id: js-cartElementine tiklandi 
+2022-08-15 16:18:04,722 INFO  [BasePage] By.xpath: //span[@class="price-new"]Elementi bulundu. 
+2022-08-15 16:18:08,766 INFO  [BasePage] By.xpath: //img[@style="max-height:80px;"]Elementler bulundu. 
+2022-08-15 16:18:08,776 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-15 16:18:08,776 INFO  [Log]               testAddToCart() PASSED 
+2022-08-15 16:18:08,776 INFO  [Log] ************* testAddToCart() Test Finished *************
+ 
+2022-08-15 16:18:08,776 INFO  [BasePage] By.name: quantityElementi bulundu. 
+2022-08-15 16:18:08,919 INFO  [BasePage] By.name: quantityElementine scroll islemi uygulandi. 
+2022-08-15 16:18:08,921 INFO  [BasePage] By.name: quantityElementi bulundu. 
+2022-08-15 16:18:08,954 INFO  [BasePage] By.name: quantityElementi bulundu. 
+2022-08-15 16:18:08,992 INFO  [BasePage] By.name: quantityElementine '2' yazildi. 
+2022-08-15 16:18:08,992 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')]Elementi bulundu. 
+2022-08-15 16:18:09,126 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:18:09,126 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')]Elementi bulundu. 
+2022-08-15 16:18:09,170 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')]Elementine tiklandi 
+2022-08-15 16:18:11,180 INFO  [BasePage] By.xpath: //input[@value="2"]Elementi bulundu. 
+2022-08-15 16:18:11,219 INFO  [BasePage] By.xpath: //a[contains(@href,'route=checkout') and @class="button red"]Elementler bulundu. 
+2022-08-15 16:18:11,806 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-15 16:18:11,806 INFO  [Log]               testDoubleTheCart() PASSED 
+2022-08-15 16:18:11,806 INFO  [Log] ************* testDoubleTheCart() Test Finished *************
+ 
+2022-08-15 16:18:12,813 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')]Elementi bulundu. 
+2022-08-15 16:18:12,949 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:18:12,949 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')]Elementi bulundu. 
+2022-08-15 16:18:12,996 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')]Elementine tiklandi 
+2022-08-15 16:18:12,996 INFO  [BasePage] By.name: firstname_companynameElementi bulundu. 
+2022-08-15 16:18:13,151 INFO  [BasePage] By.name: firstname_companynameElementine scroll islemi uygulandi. 
+2022-08-15 16:18:13,151 INFO  [BasePage] By.name: firstname_companynameElementi bulundu. 
+2022-08-15 16:18:13,186 INFO  [BasePage] By.name: firstname_companynameElementi bulundu. 
+2022-08-15 16:18:13,240 INFO  [BasePage] By.name: firstname_companynameElementine 'Testinium' yazildi. 
+2022-08-15 16:18:13,240 INFO  [BasePage] By.name: lastname_titleElementi bulundu. 
+2022-08-15 16:18:13,384 INFO  [BasePage] By.name: lastname_titleElementine scroll islemi uygulandi. 
+2022-08-15 16:18:13,384 INFO  [BasePage] By.name: lastname_titleElementi bulundu. 
+2022-08-15 16:18:13,419 INFO  [BasePage] By.name: lastname_titleElementi bulundu. 
+2022-08-15 16:18:13,469 INFO  [BasePage] By.name: lastname_titleElementine 'Software Testing' yazildi. 
+2022-08-15 16:18:13,470 INFO  [BasePage] By.id: address-zone-idElementi bulundu. 
+2022-08-15 16:18:13,536 INFO  [BasePage] By.id: address-county-idElementi bulundu. 
+2022-08-15 16:18:13,739 INFO  [BasePage] By.id: districtElementi bulundu. 
+2022-08-15 16:18:13,865 INFO  [BasePage] By.id: districtElementine scroll islemi uygulandi. 
+2022-08-15 16:18:13,865 INFO  [BasePage] By.id: districtElementi bulundu. 
+2022-08-15 16:18:13,905 INFO  [BasePage] By.id: districtElementi bulundu. 
+2022-08-15 16:18:13,973 INFO  [BasePage] By.id: districtElementine 'SOĞANLIK YENİ MAH' yazildi. 
+2022-08-15 16:18:13,974 INFO  [BasePage] By.id: address-address-textElementi bulundu. 
+2022-08-15 16:18:14,095 INFO  [BasePage] By.id: address-address-textElementine scroll islemi uygulandi. 
+2022-08-15 16:18:14,095 INFO  [BasePage] By.id: address-address-textElementi bulundu. 
+2022-08-15 16:18:14,142 INFO  [BasePage] By.id: address-address-textElementi bulundu. 
+2022-08-15 16:18:14,205 INFO  [BasePage] By.id: address-address-textElementine 'Testinium Merkez Bina' yazildi. 
+2022-08-15 16:18:14,205 INFO  [BasePage] By.id: address-postcodeElementi bulundu. 
+2022-08-15 16:18:14,328 INFO  [BasePage] By.id: address-postcodeElementine scroll islemi uygulandi. 
+2022-08-15 16:18:14,328 INFO  [BasePage] By.id: address-postcodeElementi bulundu. 
+2022-08-15 16:18:14,359 INFO  [BasePage] By.id: address-postcodeElementi bulundu. 
+2022-08-15 16:18:14,402 INFO  [BasePage] By.id: address-postcodeElementine '34870' yazildi. 
+2022-08-15 16:18:14,402 INFO  [BasePage] By.id: address-mobile-telephoneElementi bulundu. 
+2022-08-15 16:18:14,533 INFO  [BasePage] By.id: address-mobile-telephoneElementine scroll islemi uygulandi. 
+2022-08-15 16:18:14,533 INFO  [BasePage] By.id: address-mobile-telephoneElementi bulundu. 
+2022-08-15 16:18:14,561 INFO  [BasePage] By.id: address-mobile-telephoneElementi bulundu. 
+2022-08-15 16:18:14,611 INFO  [BasePage] By.id: address-mobile-telephoneElementine '5301234562' yazildi. 
+2022-08-15 16:18:14,611 INFO  [BasePage] By.id: address-telephoneElementi bulundu. 
+2022-08-15 16:18:14,744 INFO  [BasePage] By.id: address-telephoneElementine scroll islemi uygulandi. 
+2022-08-15 16:18:14,744 INFO  [BasePage] By.id: address-telephoneElementi bulundu. 
+2022-08-15 16:18:14,791 INFO  [BasePage] By.id: address-telephoneElementi bulundu. 
+2022-08-15 16:18:14,838 INFO  [BasePage] By.id: address-telephoneElementine '2121234562' yazildi. 
+2022-08-15 16:18:14,838 INFO  [BasePage] By.id: address_type_2Elementi bulundu. 
+2022-08-15 16:18:14,962 INFO  [BasePage] By.id: address_type_2Elementine scroll islemi uygulandi. 
+2022-08-15 16:18:14,962 INFO  [BasePage] By.id: address_type_2Elementi bulundu. 
+2022-08-15 16:18:15,006 INFO  [BasePage] By.id: address_type_2Elementine tiklandi 
+2022-08-15 16:18:18,019 INFO  [BasePage] By.name: company_idElementi bulundu. 
+2022-08-15 16:18:18,176 INFO  [BasePage] By.name: company_idElementine scroll islemi uygulandi. 
+2022-08-15 16:18:18,176 INFO  [BasePage] By.name: company_idElementi bulundu. 
+2022-08-15 16:18:18,207 INFO  [BasePage] By.name: company_idElementi bulundu. 
+2022-08-15 16:18:18,269 INFO  [BasePage] By.name: company_idElementine 'Kartal Vergi Dairesi' yazildi. 
+2022-08-15 16:18:18,269 INFO  [BasePage] By.name: tax_idElementi bulundu. 
+2022-08-15 16:18:18,408 INFO  [BasePage] By.name: tax_idElementine scroll islemi uygulandi. 
+2022-08-15 16:18:18,408 INFO  [BasePage] By.name: tax_idElementi bulundu. 
+2022-08-15 16:18:18,439 INFO  [BasePage] By.name: tax_idElementi bulundu. 
+2022-08-15 16:18:18,488 INFO  [BasePage] By.name: tax_idElementine '1234567890' yazildi. 
+2022-08-15 16:18:20,491 INFO  [BasePage] By.id: button-checkout-continueElementi bulundu. 
+2022-08-15 16:18:20,640 INFO  [BasePage] By.id: button-checkout-continueElementine scroll islemi uygulandi. 
+2022-08-15 16:18:20,640 INFO  [BasePage] By.id: button-checkout-continueElementi bulundu. 
+2022-08-15 16:18:20,679 INFO  [BasePage] By.id: button-checkout-continueElementine tiklandi 
+2022-08-15 16:18:21,698 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-15 16:18:21,699 INFO  [Log]               testAddAddress() PASSED 
+2022-08-15 16:18:21,699 INFO  [Log] ************* testAddAddress() Test Finished *************
+ 
+2022-08-15 16:18:23,712 INFO  [BasePage] By.xpath: //input[@value="23-non"]Elementi bulundu. 
+2022-08-15 16:18:23,853 INFO  [BasePage] By.xpath: //input[@value="23-non"]Elementine scroll islemi uygulandi. 
+2022-08-15 16:18:23,853 INFO  [BasePage] By.xpath: //input[@value="23-non"]Elementi bulundu. 
+2022-08-15 16:18:23,895 INFO  [BasePage] By.xpath: //input[@value="23-non"]Elementine tiklandi 
+2022-08-15 16:18:23,895 INFO  [BasePage] By.id: button-checkout-continueElementi bulundu. 
+2022-08-15 16:18:24,020 INFO  [BasePage] By.id: button-checkout-continueElementine scroll islemi uygulandi. 
+2022-08-15 16:18:24,020 INFO  [BasePage] By.id: button-checkout-continueElementi bulundu. 
+2022-08-15 16:18:24,074 INFO  [BasePage] By.id: button-checkout-continueElementine tiklandi 
+2022-08-15 16:18:26,096 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-15 16:18:26,096 INFO  [Log]               testSelectShipmentCompany() PASSED 
+2022-08-15 16:18:26,096 INFO  [Log] ************* testSelectShipmentCompany() Test Finished *************
+ 
+2022-08-15 16:18:28,118 INFO  [BasePage] By.id: cart-headerElementi bulundu. 
+2022-08-15 16:18:28,251 INFO  [BasePage] By.id: cart-headerElementine scroll islemi uygulandi. 
+2022-08-15 16:18:28,251 INFO  [BasePage] By.id: cart-headerElementi bulundu. 
+2022-08-15 16:18:28,803 INFO  [BasePage] By.id: cart-headerElementine tiklandi 
+2022-08-15 16:18:30,816 INFO  [BasePage] By.xpath: //i[@title="Kaldır"]Elementi bulundu. 
+2022-08-15 16:18:30,949 INFO  [BasePage] By.xpath: //i[@title="Kaldır"]Elementine scroll islemi uygulandi. 
+2022-08-15 16:18:30,949 INFO  [BasePage] By.xpath: //i[@title="Kaldır"]Elementi bulundu. 
+2022-08-15 16:18:31,006 INFO  [BasePage] By.xpath: //i[@title="Kaldır"]Elementine tiklandi 
+2022-08-15 16:18:33,019 INFO  [BasePage] By.xpath: //div[contains(@style,"20")]Elementi bulundu. 
+2022-08-15 16:18:33,050 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-15 16:18:33,050 INFO  [Log]               testRemoveFromCart() PASSED 
+2022-08-15 16:18:33,050 INFO  [Log] ************* testRemoveFromCart() Test Finished *************
+ 
+2022-08-15 16:18:33,051 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementi bulundu. 
+2022-08-15 16:18:33,192 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementine scroll islemi uygulandi. 
+2022-08-15 16:18:33,192 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementi bulundu. 
+2022-08-15 16:18:33,737 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementine tiklandi 
+2022-08-15 16:18:33,737 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link']Elementi bulundu. 
+2022-08-15 16:18:33,875 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link']Elementine scroll islemi uygulandi. 
+2022-08-15 16:18:33,875 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link']Elementi bulundu. 
+2022-08-15 16:18:34,354 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link']Elementine tiklandi 
+2022-08-15 16:18:34,354 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')]Elementler bulundu. 
+2022-08-15 16:18:34,906 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')]Elementler bulundu. 
+2022-08-15 16:18:34,914 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-15 16:18:34,914 INFO  [Log]               testDeleteAddress() PASSED 
+2022-08-15 16:18:34,914 INFO  [Log] ************* testDeleteAddress() Test Finished *************
+ 
+2022-08-15 16:18:34,916 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementi bulundu. 
+2022-08-15 16:18:35,042 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')]Elementi bulundu. 
+2022-08-15 16:18:36,931 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementi bulundu. 
+2022-08-15 16:18:36,958 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-15 16:18:36,958 INFO  [Log]               testLogout() PASSED 
+2022-08-15 16:18:36,958 INFO  [Log] ************* testLogout() Test Finished *************
+ 
+2022-08-15 16:21:06,171 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementi bulundu. 
+2022-08-15 16:21:06,316 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:06,316 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementi bulundu. 
+2022-08-15 16:21:07,407 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementine tiklandi 
+2022-08-15 16:21:07,408 INFO  [BasePage] By.id: login-emailElementi bulundu. 
+2022-08-15 16:21:07,544 INFO  [BasePage] By.id: login-emailElementine scroll islemi uygulandi. 
+2022-08-15 16:21:07,544 INFO  [BasePage] By.id: login-emailElementi bulundu. 
+2022-08-15 16:21:07,562 INFO  [BasePage] By.id: login-emailElementi bulundu. 
+2022-08-15 16:21:07,638 INFO  [BasePage] By.id: login-emailElementine 'kyakut35@gmail.com' yazildi. 
+2022-08-15 16:21:07,638 INFO  [BasePage] By.id: login-passwordElementi bulundu. 
+2022-08-15 16:21:07,786 INFO  [BasePage] By.id: login-passwordElementine scroll islemi uygulandi. 
+2022-08-15 16:21:07,786 INFO  [BasePage] By.id: login-passwordElementi bulundu. 
+2022-08-15 16:21:07,817 INFO  [BasePage] By.id: login-passwordElementi bulundu. 
+2022-08-15 16:21:07,866 INFO  [BasePage] By.id: login-passwordElementine '12345678' yazildi. 
+2022-08-15 16:21:07,866 INFO  [BasePage] By.xpath: //button[contains(@class,'login')]Elementi bulundu. 
+2022-08-15 16:21:08,003 INFO  [BasePage] By.xpath: //button[contains(@class,'login')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:08,003 INFO  [BasePage] By.xpath: //button[contains(@class,'login')]Elementi bulundu. 
+2022-08-15 16:21:08,051 INFO  [BasePage] By.xpath: //button[contains(@class,'login')]Elementine tiklandi 
+2022-08-15 16:21:10,066 INFO  [Log] ************* testCheckLogin() Test Initiated ************* 
+2022-08-15 16:21:10,066 INFO  [Log]               testCheckLogin() PASSED
+ 
+2022-08-15 16:21:13,091 INFO  [BasePage] By.cssSelector: input#search-inputElementi bulundu. 
+2022-08-15 16:21:13,233 INFO  [BasePage] By.cssSelector: input#search-inputElementine scroll islemi uygulandi. 
+2022-08-15 16:21:13,234 INFO  [BasePage] By.cssSelector: input#search-inputElementi bulundu. 
+2022-08-15 16:21:13,271 INFO  [BasePage] By.cssSelector: input#search-inputElementi bulundu. 
+2022-08-15 16:21:13,323 INFO  [BasePage] By.cssSelector: input#search-inputElementine 'Felsefe' yazildi. 
+2022-08-15 16:21:13,324 INFO  [BasePage] By.xpath: //span[contains(@class,'search')]Elementi bulundu. 
+2022-08-15 16:21:13,463 INFO  [BasePage] By.xpath: //span[contains(@class,'search')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:13,464 INFO  [BasePage] By.xpath: //span[contains(@class,'search')]Elementi bulundu. 
+2022-08-15 16:21:14,398 INFO  [BasePage] By.xpath: //span[contains(@class,'search')]Elementine tiklandi 
+2022-08-15 16:21:14,408 INFO  [Log] ************* testSearchBook() Test Initiated ************* 
+2022-08-15 16:21:14,409 INFO  [Log]               testSearchBook() PASSED
+ 
+2022-08-15 16:21:14,411 INFO  [BasePage] By.xpath: //a[contains(@href,'search&page')]Elementler bulundu. 
+2022-08-15 16:21:17,159 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')]Elementler bulundu. 
+2022-08-15 16:21:20,075 INFO  [BasePage] By.xpath: //div[@class="price__item"]Elementi bulundu. 
+2022-08-15 16:21:20,100 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:220')]Elementi bulundu. 
+2022-08-15 16:21:20,122 INFO  [Log] ************* testSelectRandomBook() Test Initiated ************* 
+2022-08-15 16:21:20,122 INFO  [Log]               testSelectRandomBook() PASSED
+ 
+2022-08-15 16:21:20,122 INFO  [BasePage] By.id: button-cartElementi bulundu. 
+2022-08-15 16:21:20,275 INFO  [BasePage] By.id: button-cartElementine scroll islemi uygulandi. 
+2022-08-15 16:21:20,275 INFO  [BasePage] By.id: button-cartElementi bulundu. 
+2022-08-15 16:21:20,327 INFO  [BasePage] By.id: button-cartElementine tiklandi 
+2022-08-15 16:21:22,335 INFO  [BasePage] By.id: cart-itemsElementi bulundu. 
+2022-08-15 16:21:22,474 INFO  [BasePage] By.id: cart-itemsElementine scroll islemi uygulandi. 
+2022-08-15 16:21:22,474 INFO  [BasePage] By.id: cart-itemsElementi bulundu. 
+2022-08-15 16:21:22,510 INFO  [BasePage] By.id: cart-itemsElementine tiklandi 
+2022-08-15 16:21:22,510 INFO  [BasePage] By.id: js-cartElementi bulundu. 
+2022-08-15 16:21:22,890 INFO  [BasePage] By.id: js-cartElementine scroll islemi uygulandi. 
+2022-08-15 16:21:22,890 INFO  [BasePage] By.id: js-cartElementi bulundu. 
+2022-08-15 16:21:23,996 INFO  [BasePage] By.id: js-cartElementine tiklandi 
+2022-08-15 16:21:25,997 INFO  [BasePage] By.xpath: //span[@class="price-new"]Elementi bulundu. 
+2022-08-15 16:21:30,045 INFO  [BasePage] By.xpath: //img[@style="max-height:80px;"]Elementler bulundu. 
+2022-08-15 16:21:30,058 INFO  [Log] ************* testAddToCart() Test Initiated ************* 
+2022-08-15 16:21:30,059 INFO  [Log]               testAddToCart() PASSED
+ 
+2022-08-15 16:21:30,060 INFO  [BasePage] By.name: quantityElementi bulundu. 
+2022-08-15 16:21:30,198 INFO  [BasePage] By.name: quantityElementine scroll islemi uygulandi. 
+2022-08-15 16:21:30,199 INFO  [BasePage] By.name: quantityElementi bulundu. 
+2022-08-15 16:21:30,234 INFO  [BasePage] By.name: quantityElementi bulundu. 
+2022-08-15 16:21:30,271 INFO  [BasePage] By.name: quantityElementine '2' yazildi. 
+2022-08-15 16:21:30,271 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')]Elementi bulundu. 
+2022-08-15 16:21:30,407 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:30,407 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')]Elementi bulundu. 
+2022-08-15 16:21:30,446 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')]Elementine tiklandi 
+2022-08-15 16:21:32,458 INFO  [BasePage] By.xpath: //input[@value="2"]Elementi bulundu. 
+2022-08-15 16:21:32,487 INFO  [BasePage] By.xpath: //a[contains(@href,'route=checkout') and @class="button red"]Elementler bulundu. 
+2022-08-15 16:21:32,950 INFO  [Log] ************* testDoubleTheCart() Test Initiated ************* 
+2022-08-15 16:21:32,950 INFO  [Log]               testDoubleTheCart() PASSED
+ 
+2022-08-15 16:21:33,965 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')]Elementi bulundu. 
+2022-08-15 16:21:34,103 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')]Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:34,103 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')]Elementi bulundu. 
+2022-08-15 16:21:34,150 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')]Elementine tiklandi 
+2022-08-15 16:21:34,151 INFO  [BasePage] By.name: firstname_companynameElementi bulundu. 
+2022-08-15 16:21:34,304 INFO  [BasePage] By.name: firstname_companynameElementine scroll islemi uygulandi. 
+2022-08-15 16:21:34,304 INFO  [BasePage] By.name: firstname_companynameElementi bulundu. 
+2022-08-15 16:21:34,339 INFO  [BasePage] By.name: firstname_companynameElementi bulundu. 
+2022-08-15 16:21:34,392 INFO  [BasePage] By.name: firstname_companynameElementine 'Testinium' yazildi. 
+2022-08-15 16:21:34,393 INFO  [BasePage] By.name: lastname_titleElementi bulundu. 
+2022-08-15 16:21:34,536 INFO  [BasePage] By.name: lastname_titleElementine scroll islemi uygulandi. 
+2022-08-15 16:21:34,536 INFO  [BasePage] By.name: lastname_titleElementi bulundu. 
+2022-08-15 16:21:34,572 INFO  [BasePage] By.name: lastname_titleElementi bulundu. 
+2022-08-15 16:21:34,621 INFO  [BasePage] By.name: lastname_titleElementine 'Software Testing' yazildi. 
+2022-08-15 16:21:34,622 INFO  [BasePage] By.id: address-zone-idElementi bulundu. 
+2022-08-15 16:21:34,690 INFO  [BasePage] By.id: address-county-idElementi bulundu. 
+2022-08-15 16:21:34,949 INFO  [BasePage] By.id: districtElementi bulundu. 
+2022-08-15 16:21:35,098 INFO  [BasePage] By.id: districtElementine scroll islemi uygulandi. 
+2022-08-15 16:21:35,098 INFO  [BasePage] By.id: districtElementi bulundu. 
+2022-08-15 16:21:35,133 INFO  [BasePage] By.id: districtElementi bulundu. 
+2022-08-15 16:21:35,209 INFO  [BasePage] By.id: districtElementine 'SOĞANLIK YENİ MAH' yazildi. 
+2022-08-15 16:21:35,209 INFO  [BasePage] By.id: address-address-textElementi bulundu. 
+2022-08-15 16:21:35,345 INFO  [BasePage] By.id: address-address-textElementine scroll islemi uygulandi. 
+2022-08-15 16:21:35,345 INFO  [BasePage] By.id: address-address-textElementi bulundu. 
+2022-08-15 16:21:35,377 INFO  [BasePage] By.id: address-address-textElementi bulundu. 
+2022-08-15 16:21:35,444 INFO  [BasePage] By.id: address-address-textElementine 'Testinium Merkez Bina' yazildi. 
+2022-08-15 16:21:35,444 INFO  [BasePage] By.id: address-postcodeElementi bulundu. 
+2022-08-15 16:21:35,596 INFO  [BasePage] By.id: address-postcodeElementine scroll islemi uygulandi. 
+2022-08-15 16:21:35,596 INFO  [BasePage] By.id: address-postcodeElementi bulundu. 
+2022-08-15 16:21:35,628 INFO  [BasePage] By.id: address-postcodeElementi bulundu. 
+2022-08-15 16:21:35,678 INFO  [BasePage] By.id: address-postcodeElementine '34870' yazildi. 
+2022-08-15 16:21:35,678 INFO  [BasePage] By.id: address-mobile-telephoneElementi bulundu. 
+2022-08-15 16:21:35,814 INFO  [BasePage] By.id: address-mobile-telephoneElementine scroll islemi uygulandi. 
+2022-08-15 16:21:35,814 INFO  [BasePage] By.id: address-mobile-telephoneElementi bulundu. 
+2022-08-15 16:21:35,845 INFO  [BasePage] By.id: address-mobile-telephoneElementi bulundu. 
+2022-08-15 16:21:35,894 INFO  [BasePage] By.id: address-mobile-telephoneElementine '5301234562' yazildi. 
+2022-08-15 16:21:35,894 INFO  [BasePage] By.id: address-telephoneElementi bulundu. 
+2022-08-15 16:21:36,029 INFO  [BasePage] By.id: address-telephoneElementine scroll islemi uygulandi. 
+2022-08-15 16:21:36,029 INFO  [BasePage] By.id: address-telephoneElementi bulundu. 
+2022-08-15 16:21:36,060 INFO  [BasePage] By.id: address-telephoneElementi bulundu. 
+2022-08-15 16:21:36,110 INFO  [BasePage] By.id: address-telephoneElementine '2121234562' yazildi. 
+2022-08-15 16:21:36,110 INFO  [BasePage] By.id: address_type_2Elementi bulundu. 
+2022-08-15 16:21:36,252 INFO  [BasePage] By.id: address_type_2Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:36,252 INFO  [BasePage] By.id: address_type_2Elementi bulundu. 
+2022-08-15 16:21:36,335 INFO  [BasePage] By.id: address_type_2Elementine tiklandi 
+2022-08-15 16:21:39,336 INFO  [BasePage] By.name: company_idElementi bulundu. 
+2022-08-15 16:21:39,478 INFO  [BasePage] By.name: company_idElementine scroll islemi uygulandi. 
+2022-08-15 16:21:39,478 INFO  [BasePage] By.name: company_idElementi bulundu. 
+2022-08-15 16:21:39,540 INFO  [BasePage] By.name: company_idElementi bulundu. 
+2022-08-15 16:21:39,601 INFO  [BasePage] By.name: company_idElementine 'Kartal Vergi Dairesi' yazildi. 
+2022-08-15 16:21:39,602 INFO  [BasePage] By.name: tax_idElementi bulundu. 
+2022-08-15 16:21:39,742 INFO  [BasePage] By.name: tax_idElementine scroll islemi uygulandi. 
+2022-08-15 16:21:39,742 INFO  [BasePage] By.name: tax_idElementi bulundu. 
+2022-08-15 16:21:39,773 INFO  [BasePage] By.name: tax_idElementi bulundu. 
+2022-08-15 16:21:39,823 INFO  [BasePage] By.name: tax_idElementine '1234567890' yazildi. 
+2022-08-15 16:21:41,825 INFO  [BasePage] By.id: button-checkout-continueElementi bulundu. 
+2022-08-15 16:21:41,960 INFO  [BasePage] By.id: button-checkout-continueElementine scroll islemi uygulandi. 
+2022-08-15 16:21:41,960 INFO  [BasePage] By.id: button-checkout-continueElementi bulundu. 
+2022-08-15 16:21:41,998 INFO  [BasePage] By.id: button-checkout-continueElementine tiklandi 
+2022-08-15 16:21:43,022 INFO  [Log] ************* testAddAddress() Test Initiated ************* 
+2022-08-15 16:21:43,022 INFO  [Log]               testAddAddress() PASSED
+ 
+2022-08-15 16:21:45,038 INFO  [BasePage] By.xpath: //input[@value="23-non"]Elementi bulundu. 
+2022-08-15 16:21:45,171 INFO  [BasePage] By.xpath: //input[@value="23-non"]Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:45,171 INFO  [BasePage] By.xpath: //input[@value="23-non"]Elementi bulundu. 
+2022-08-15 16:21:45,231 INFO  [BasePage] By.xpath: //input[@value="23-non"]Elementine tiklandi 
+2022-08-15 16:21:45,231 INFO  [BasePage] By.id: button-checkout-continueElementi bulundu. 
+2022-08-15 16:21:45,354 INFO  [BasePage] By.id: button-checkout-continueElementine scroll islemi uygulandi. 
+2022-08-15 16:21:45,354 INFO  [BasePage] By.id: button-checkout-continueElementi bulundu. 
+2022-08-15 16:21:45,418 INFO  [BasePage] By.id: button-checkout-continueElementine tiklandi 
+2022-08-15 16:21:47,437 INFO  [Log] ************* testSelectShipmentCompany() Test Initiated ************* 
+2022-08-15 16:21:47,437 INFO  [Log]               testSelectShipmentCompany() PASSED
+ 
+2022-08-15 16:21:49,458 INFO  [BasePage] By.id: cart-headerElementi bulundu. 
+2022-08-15 16:21:49,586 INFO  [BasePage] By.id: cart-headerElementine scroll islemi uygulandi. 
+2022-08-15 16:21:49,586 INFO  [BasePage] By.id: cart-headerElementi bulundu. 
+2022-08-15 16:21:50,141 INFO  [BasePage] By.id: cart-headerElementine tiklandi 
+2022-08-15 16:21:52,145 INFO  [BasePage] By.xpath: //i[@title="Kaldır"]Elementi bulundu. 
+2022-08-15 16:21:52,275 INFO  [BasePage] By.xpath: //i[@title="Kaldır"]Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:52,275 INFO  [BasePage] By.xpath: //i[@title="Kaldır"]Elementi bulundu. 
+2022-08-15 16:21:52,329 INFO  [BasePage] By.xpath: //i[@title="Kaldır"]Elementine tiklandi 
+2022-08-15 16:21:54,343 INFO  [BasePage] By.xpath: //div[contains(@style,"20")]Elementi bulundu. 
+2022-08-15 16:21:54,374 INFO  [Log] ************* testRemoveFromCart() Test Initiated ************* 
+2022-08-15 16:21:54,374 INFO  [Log]               testRemoveFromCart() PASSED
+ 
+2022-08-15 16:21:54,376 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementi bulundu. 
+2022-08-15 16:21:54,517 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:54,518 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementi bulundu. 
+2022-08-15 16:21:55,265 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementine tiklandi 
+2022-08-15 16:21:55,265 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link']Elementi bulundu. 
+2022-08-15 16:21:55,422 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link']Elementine scroll islemi uygulandi. 
+2022-08-15 16:21:55,422 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link']Elementi bulundu. 
+2022-08-15 16:21:55,959 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link']Elementine tiklandi 
+2022-08-15 16:21:55,959 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')]Elementler bulundu. 
+2022-08-15 16:21:56,615 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')]Elementler bulundu. 
+2022-08-15 16:21:56,625 INFO  [Log] ************* testDeleteAddress() Test Initiated ************* 
+2022-08-15 16:21:56,625 INFO  [Log]               testDeleteAddress() PASSED
+ 
+2022-08-15 16:21:56,626 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"]Elementi bulundu. 
+2022-08-15 16:21:56,756 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')]Elementi bulundu. 
+2022-08-15 16:21:59,453 INFO  [BasePage] By.xpath: //a[contains(@href,'login')]Elementi bulundu. 
+2022-08-15 16:21:59,477 INFO  [Log] ************* testLogout() Test Initiated ************* 
+2022-08-15 16:21:59,477 INFO  [Log]               testLogout() PASSED
+ 
