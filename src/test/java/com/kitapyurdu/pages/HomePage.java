@@ -41,4 +41,6 @@ public class HomePage extends BasePage {
         return findElement(By.xpath("//a[contains(@href,'login')]")).getText().equals("Giriş Yap");
     }
 
+    public void selectAuthors() {
+    }
 }

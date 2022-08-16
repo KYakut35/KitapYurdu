@@ -3,6 +3,7 @@ package com.kitapyurdu.pages;
 import com.kitapyurdu.methods.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class BookDetailPage extends BasePage {
 
@@ -46,4 +47,10 @@ public class BookDetailPage extends BasePage {
         return detailPagePrice;
     }
 
+    public void addToShopList() {
+    }
+
+    public WebElement getBook() {
+        return null;
+    }
 }
