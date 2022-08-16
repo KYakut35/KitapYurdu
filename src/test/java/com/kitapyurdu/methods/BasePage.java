@@ -10,7 +10,7 @@ import java.util.List;
 
 public class BasePage extends BaseTest {
 
-    final static Logger logger = Logger.getLogger(BasePage.class);
+    public final static Logger logger = Logger.getLogger(BasePage.class);
 
     public static WebDriver driver;
     public BasePage() {
@@ -20,44 +20,47 @@ public class BasePage extends BaseTest {
     public void scrollWithAction(By locator) {
         Actions actions = new Actions(driver);
         actions.moveToElement(findElement(locator)).build().perform();
-        logger.info(locator + " Elementine scroll islemi uygulandi.");
+        logger.info("This element " + locator + " has been scrolled.");
     }
 
     public WebElement findElement(By locator) {
-        logger.info(locator + " Elementi bulundu.");
+        logger.info(locator + " Element founded.");
         return driver.findElement(locator);
 
     }
 
     public List<WebElement> findAllElements(By locator) {
-        logger.info(locator + " Elementler bulundu.");
+        logger.info(locator + " Elements of this have been found.");
         return driver.findElements(locator);
     }
 
     public void click(By locator) {
         scrollWithAction(locator);
         findElement(locator).click();
-        logger.info(locator + " Elementine tiklandi");
+        logger.info("Clicked on this element " + locator + " .");
     }
 
     public void sendKeys(By locator , String text) {
         scrollWithAction(locator);
         findElement(locator).clear();
         findElement(locator).sendKeys(text);
-        logger.info(locator + " Elementine '"+ text +"' yazildi.");
+        logger.info(text + " has been written to this element " + locator + " .");
 
     }
 
     public boolean checkURL(String URL) {
         if (driver.getCurrentUrl().equals(URL)) {
+            logger.info(URL + " website loaded successfully.");
             return true;
+
         }
         else {
+            logger.error(URL + "website can not loaded.");
             return false;
         }
     }
     public boolean isDisplayed(By locator) {
-        logger.info(locator + " Elementi bulundu.");
+        logger.info(locator + " Element located.");
         return findElement(locator).isDisplayed();
     }
 

@@ -35,6 +35,7 @@ public class BooksPage extends BasePage {
         int upperBound = 20;
         books.get(random.nextInt(upperBound)).click();
         Thread.sleep(1000);
+        logger.info("Selected random book from page 2.");
     }
 
     public boolean checkSearch(String text) {

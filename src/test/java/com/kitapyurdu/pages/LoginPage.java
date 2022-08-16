@@ -14,6 +14,7 @@ public class LoginPage extends BasePage {
         sendKeys(By.id("login-email"),eMail);
         sendKeys(By.id("login-password"),password);
         click(By.xpath("//button[contains(@class,'login')]"));
+        logger.info(eMail + " and " + password + " written in appropriate places.");
     }
 
 }

@@ -12,6 +12,7 @@ public class CheckOutPage  extends BasePage {
     public void backToCartPage() throws InterruptedException {
         Thread.sleep(2000);
         click(By.id("cart-header"));
+        logger.info("Returning to cart page.");
     }
 
 }

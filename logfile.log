@@ -1739,3 +1739,618 @@ Session ID: 44091a57221ab72a72297a211cb71b02
 2022-08-15 16:21:59,477 INFO  [Log] ************* testLogout() Test Initiated ************* 
 2022-08-15 16:21:59,477 INFO  [Log]               testLogout() PASSED
  
+2022-08-16 08:12:20,056 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Elementi bulundu. 
+2022-08-16 08:12:20,194 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:20,194 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Elementi bulundu. 
+2022-08-16 08:12:21,300 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Elementine tiklandi 
+2022-08-16 08:12:21,301 INFO  [BasePage] By.id: login-email Elementi bulundu. 
+2022-08-16 08:12:21,436 INFO  [BasePage] By.id: login-email Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:21,436 INFO  [BasePage] By.id: login-email Elementi bulundu. 
+2022-08-16 08:12:21,471 INFO  [BasePage] By.id: login-email Elementi bulundu. 
+2022-08-16 08:12:21,534 INFO  [BasePage] By.id: login-email Elementine 'kyakut35@gmail.com' yazildi. 
+2022-08-16 08:12:21,535 INFO  [BasePage] By.id: login-password Elementi bulundu. 
+2022-08-16 08:12:21,658 INFO  [BasePage] By.id: login-password Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:21,658 INFO  [BasePage] By.id: login-password Elementi bulundu. 
+2022-08-16 08:12:21,677 INFO  [BasePage] By.id: login-password Elementi bulundu. 
+2022-08-16 08:12:21,734 INFO  [BasePage] By.id: login-password Elementine '12345678' yazildi. 
+2022-08-16 08:12:21,734 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Elementi bulundu. 
+2022-08-16 08:12:21,861 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:21,861 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Elementi bulundu. 
+2022-08-16 08:12:21,917 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Elementine tiklandi 
+2022-08-16 08:12:23,946 INFO  [Log] testCheckLogin() PASSED 
+2022-08-16 08:12:26,951 INFO  [BasePage] By.cssSelector: input#search-input Elementi bulundu. 
+2022-08-16 08:12:27,109 INFO  [BasePage] By.cssSelector: input#search-input Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:27,109 INFO  [BasePage] By.cssSelector: input#search-input Elementi bulundu. 
+2022-08-16 08:12:27,143 INFO  [BasePage] By.cssSelector: input#search-input Elementi bulundu. 
+2022-08-16 08:12:27,197 INFO  [BasePage] By.cssSelector: input#search-input Elementine 'Felsefe' yazildi. 
+2022-08-16 08:12:27,198 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Elementi bulundu. 
+2022-08-16 08:12:27,338 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:27,338 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Elementi bulundu. 
+2022-08-16 08:12:28,105 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Elementine tiklandi 
+2022-08-16 08:12:28,111 INFO  [Log] testSearchBook() PASSED 
+2022-08-16 08:12:28,113 INFO  [BasePage] By.xpath: //a[contains(@href,'search&page')] Elementler bulundu. 
+2022-08-16 08:12:30,754 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Elementler bulundu. 
+2022-08-16 08:12:34,144 INFO  [BasePage] By.xpath: //div[@class="price__item"] Elementi bulundu. 
+2022-08-16 08:12:34,159 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:220')] Elementi bulundu. 
+2022-08-16 08:12:34,199 INFO  [Log] testSelectRandomBook() PASSED 
+2022-08-16 08:12:34,199 INFO  [BasePage] By.id: button-cart Elementi bulundu. 
+2022-08-16 08:12:34,346 INFO  [BasePage] By.id: button-cart Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:34,346 INFO  [BasePage] By.id: button-cart Elementi bulundu. 
+2022-08-16 08:12:34,395 INFO  [BasePage] By.id: button-cart Elementine tiklandi 
+2022-08-16 08:12:36,410 INFO  [BasePage] By.id: cart-items Elementi bulundu. 
+2022-08-16 08:12:36,536 INFO  [BasePage] By.id: cart-items Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:36,536 INFO  [BasePage] By.id: cart-items Elementi bulundu. 
+2022-08-16 08:12:36,572 INFO  [BasePage] By.id: cart-items Elementine tiklandi 
+2022-08-16 08:12:36,572 INFO  [BasePage] By.id: js-cart Elementi bulundu. 
+2022-08-16 08:12:37,457 INFO  [BasePage] By.id: js-cart Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:37,457 INFO  [BasePage] By.id: js-cart Elementi bulundu. 
+2022-08-16 08:12:38,272 INFO  [BasePage] By.id: js-cart Elementine tiklandi 
+2022-08-16 08:12:40,286 INFO  [BasePage] By.xpath: //span[@class="price-new"] Elementi bulundu. 
+2022-08-16 08:12:44,327 INFO  [BasePage] By.xpath: //img[@style="max-height:80px;"] Elementler bulundu. 
+2022-08-16 08:12:44,327 INFO  [Log] testAddToCart() PASSED 
+2022-08-16 08:12:44,327 INFO  [BasePage] By.name: quantity Elementi bulundu. 
+2022-08-16 08:12:44,472 INFO  [BasePage] By.name: quantity Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:44,472 INFO  [BasePage] By.name: quantity Elementi bulundu. 
+2022-08-16 08:12:44,508 INFO  [BasePage] By.name: quantity Elementi bulundu. 
+2022-08-16 08:12:44,550 INFO  [BasePage] By.name: quantity Elementine '2' yazildi. 
+2022-08-16 08:12:44,550 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Elementi bulundu. 
+2022-08-16 08:12:44,686 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:44,686 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Elementi bulundu. 
+2022-08-16 08:12:44,729 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Elementine tiklandi 
+2022-08-16 08:12:46,737 INFO  [BasePage] By.xpath: //input[@value="2"] Elementi bulundu. 
+2022-08-16 08:12:46,766 INFO  [BasePage] By.xpath: //a[contains(@href,'route=checkout') and @class="button red"] Elementler bulundu. 
+2022-08-16 08:12:47,535 INFO  [Log] testDoubleTheCart() PASSED 
+2022-08-16 08:12:48,551 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Elementi bulundu. 
+2022-08-16 08:12:48,688 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:48,688 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Elementi bulundu. 
+2022-08-16 08:12:48,735 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Elementine tiklandi 
+2022-08-16 08:12:48,735 INFO  [BasePage] By.name: firstname_companyname Elementi bulundu. 
+2022-08-16 08:12:48,890 INFO  [BasePage] By.name: firstname_companyname Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:48,890 INFO  [BasePage] By.name: firstname_companyname Elementi bulundu. 
+2022-08-16 08:12:48,927 INFO  [BasePage] By.name: firstname_companyname Elementi bulundu. 
+2022-08-16 08:12:48,979 INFO  [BasePage] By.name: firstname_companyname Elementine 'Testinium' yazildi. 
+2022-08-16 08:12:48,980 INFO  [BasePage] By.name: lastname_title Elementi bulundu. 
+2022-08-16 08:12:49,122 INFO  [BasePage] By.name: lastname_title Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:49,122 INFO  [BasePage] By.name: lastname_title Elementi bulundu. 
+2022-08-16 08:12:49,161 INFO  [BasePage] By.name: lastname_title Elementi bulundu. 
+2022-08-16 08:12:49,210 INFO  [BasePage] By.name: lastname_title Elementine 'Software Testing' yazildi. 
+2022-08-16 08:12:49,212 INFO  [BasePage] By.id: address-zone-id Elementi bulundu. 
+2022-08-16 08:12:49,278 INFO  [BasePage] By.id: address-county-id Elementi bulundu. 
+2022-08-16 08:12:49,466 INFO  [BasePage] By.id: district Elementi bulundu. 
+2022-08-16 08:12:49,600 INFO  [BasePage] By.id: district Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:49,600 INFO  [BasePage] By.id: district Elementi bulundu. 
+2022-08-16 08:12:49,634 INFO  [BasePage] By.id: district Elementi bulundu. 
+2022-08-16 08:12:49,699 INFO  [BasePage] By.id: district Elementine 'SOĞANLIK YENİ MAH' yazildi. 
+2022-08-16 08:12:49,699 INFO  [BasePage] By.id: address-address-text Elementi bulundu. 
+2022-08-16 08:12:49,850 INFO  [BasePage] By.id: address-address-text Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:49,850 INFO  [BasePage] By.id: address-address-text Elementi bulundu. 
+2022-08-16 08:12:49,897 INFO  [BasePage] By.id: address-address-text Elementi bulundu. 
+2022-08-16 08:12:49,961 INFO  [BasePage] By.id: address-address-text Elementine 'Testinium Merkez Bina' yazildi. 
+2022-08-16 08:12:49,961 INFO  [BasePage] By.id: address-postcode Elementi bulundu. 
+2022-08-16 08:12:50,083 INFO  [BasePage] By.id: address-postcode Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:50,083 INFO  [BasePage] By.id: address-postcode Elementi bulundu. 
+2022-08-16 08:12:50,114 INFO  [BasePage] By.id: address-postcode Elementi bulundu. 
+2022-08-16 08:12:50,171 INFO  [BasePage] By.id: address-postcode Elementine '34870' yazildi. 
+2022-08-16 08:12:50,171 INFO  [BasePage] By.id: address-mobile-telephone Elementi bulundu. 
+2022-08-16 08:12:50,300 INFO  [BasePage] By.id: address-mobile-telephone Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:50,300 INFO  [BasePage] By.id: address-mobile-telephone Elementi bulundu. 
+2022-08-16 08:12:50,331 INFO  [BasePage] By.id: address-mobile-telephone Elementi bulundu. 
+2022-08-16 08:12:50,386 INFO  [BasePage] By.id: address-mobile-telephone Elementine '5301234562' yazildi. 
+2022-08-16 08:12:50,386 INFO  [BasePage] By.id: address-telephone Elementi bulundu. 
+2022-08-16 08:12:50,524 INFO  [BasePage] By.id: address-telephone Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:50,525 INFO  [BasePage] By.id: address-telephone Elementi bulundu. 
+2022-08-16 08:12:50,556 INFO  [BasePage] By.id: address-telephone Elementi bulundu. 
+2022-08-16 08:12:50,602 INFO  [BasePage] By.id: address-telephone Elementine '2121234562' yazildi. 
+2022-08-16 08:12:50,602 INFO  [BasePage] By.id: address_type_2 Elementi bulundu. 
+2022-08-16 08:12:50,742 INFO  [BasePage] By.id: address_type_2 Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:50,742 INFO  [BasePage] By.id: address_type_2 Elementi bulundu. 
+2022-08-16 08:12:50,789 INFO  [BasePage] By.id: address_type_2 Elementine tiklandi 
+2022-08-16 08:12:53,799 INFO  [BasePage] By.name: company_id Elementi bulundu. 
+2022-08-16 08:12:53,946 INFO  [BasePage] By.name: company_id Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:53,946 INFO  [BasePage] By.name: company_id Elementi bulundu. 
+2022-08-16 08:12:53,977 INFO  [BasePage] By.name: company_id Elementi bulundu. 
+2022-08-16 08:12:54,045 INFO  [BasePage] By.name: company_id Elementine 'Kartal Vergi Dairesi' yazildi. 
+2022-08-16 08:12:54,045 INFO  [BasePage] By.name: tax_id Elementi bulundu. 
+2022-08-16 08:12:54,181 INFO  [BasePage] By.name: tax_id Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:54,181 INFO  [BasePage] By.name: tax_id Elementi bulundu. 
+2022-08-16 08:12:54,212 INFO  [BasePage] By.name: tax_id Elementi bulundu. 
+2022-08-16 08:12:54,260 INFO  [BasePage] By.name: tax_id Elementine '1234567890' yazildi. 
+2022-08-16 08:12:56,262 INFO  [BasePage] By.id: button-checkout-continue Elementi bulundu. 
+2022-08-16 08:12:56,397 INFO  [BasePage] By.id: button-checkout-continue Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:56,399 INFO  [BasePage] By.id: button-checkout-continue Elementi bulundu. 
+2022-08-16 08:12:56,458 INFO  [BasePage] By.id: button-checkout-continue Elementine tiklandi 
+2022-08-16 08:12:57,479 INFO  [Log] testAddAddress() PASSED 
+2022-08-16 08:12:59,499 INFO  [BasePage] By.xpath: //input[@value="23-non"] Elementi bulundu. 
+2022-08-16 08:12:59,625 INFO  [BasePage] By.xpath: //input[@value="23-non"] Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:59,625 INFO  [BasePage] By.xpath: //input[@value="23-non"] Elementi bulundu. 
+2022-08-16 08:12:59,665 INFO  [BasePage] By.xpath: //input[@value="23-non"] Elementine tiklandi 
+2022-08-16 08:12:59,665 INFO  [BasePage] By.id: button-checkout-continue Elementi bulundu. 
+2022-08-16 08:12:59,794 INFO  [BasePage] By.id: button-checkout-continue Elementine scroll islemi uygulandi. 
+2022-08-16 08:12:59,794 INFO  [BasePage] By.id: button-checkout-continue Elementi bulundu. 
+2022-08-16 08:12:59,844 INFO  [BasePage] By.id: button-checkout-continue Elementine tiklandi 
+2022-08-16 08:13:01,848 INFO  [Log] testSelectShipmentCompany() PASSED 
+2022-08-16 08:13:03,858 INFO  [BasePage] By.id: cart-header Elementi bulundu. 
+2022-08-16 08:13:03,998 INFO  [BasePage] By.id: cart-header Elementine scroll islemi uygulandi. 
+2022-08-16 08:13:03,998 INFO  [BasePage] By.id: cart-header Elementi bulundu. 
+2022-08-16 08:13:04,555 INFO  [BasePage] By.id: cart-header Elementine tiklandi 
+2022-08-16 08:13:06,569 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Elementi bulundu. 
+2022-08-16 08:13:06,703 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Elementine scroll islemi uygulandi. 
+2022-08-16 08:13:06,703 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Elementi bulundu. 
+2022-08-16 08:13:06,751 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Elementine tiklandi 
+2022-08-16 08:13:08,766 INFO  [BasePage] By.xpath: //div[contains(@style,"20")] Elementi bulundu. 
+2022-08-16 08:13:08,799 INFO  [Log] testRemoveFromCart() PASSED 
+2022-08-16 08:13:08,801 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Elementi bulundu. 
+2022-08-16 08:13:08,939 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Elementine scroll islemi uygulandi. 
+2022-08-16 08:13:08,939 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Elementi bulundu. 
+2022-08-16 08:13:09,441 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Elementine tiklandi 
+2022-08-16 08:13:09,441 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Elementi bulundu. 
+2022-08-16 08:13:09,591 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Elementine scroll islemi uygulandi. 
+2022-08-16 08:13:09,591 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Elementi bulundu. 
+2022-08-16 08:13:09,980 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Elementine tiklandi 
+2022-08-16 08:13:09,980 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')] Elementler bulundu. 
+2022-08-16 08:13:10,592 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')] Elementler bulundu. 
+2022-08-16 08:13:10,600 INFO  [Log] testDeleteAddress() PASSED 
+2022-08-16 08:13:10,601 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Elementi bulundu. 
+2022-08-16 08:13:10,752 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')] Elementi bulundu. 
+2022-08-16 08:13:12,659 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Elementi bulundu. 
+2022-08-16 08:13:12,683 INFO  [Log] testLogout() PASSED 
+2022-08-16 08:24:43,035 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element found. 
+2022-08-16 08:24:43,181 INFO  [BasePage] This element By.xpath: //a[contains(@href,'login')] has been scrolled. 
+2022-08-16 08:24:43,181 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element found. 
+2022-08-16 08:24:44,191 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'login')] . 
+2022-08-16 08:24:44,192 INFO  [BasePage] By.id: login-email Element found. 
+2022-08-16 08:24:44,330 INFO  [BasePage] This element By.id: login-email has been scrolled. 
+2022-08-16 08:24:44,330 INFO  [BasePage] By.id: login-email Element found. 
+2022-08-16 08:24:44,362 INFO  [BasePage] By.id: login-email Element found. 
+2022-08-16 08:24:44,423 INFO  [BasePage] kyakut35@gmail.com has been written to this element By.id: login-email . 
+2022-08-16 08:24:44,423 INFO  [BasePage] By.id: login-password Element found. 
+2022-08-16 08:24:44,545 INFO  [BasePage] This element By.id: login-password has been scrolled. 
+2022-08-16 08:24:44,545 INFO  [BasePage] By.id: login-password Element found. 
+2022-08-16 08:24:44,577 INFO  [BasePage] By.id: login-password Element found. 
+2022-08-16 08:24:44,625 INFO  [BasePage] 12345678 has been written to this element By.id: login-password . 
+2022-08-16 08:24:44,625 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element found. 
+2022-08-16 08:24:44,762 INFO  [BasePage] This element By.xpath: //button[contains(@class,'login')] has been scrolled. 
+2022-08-16 08:24:44,762 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element found. 
+2022-08-16 08:24:44,808 INFO  [BasePage] Clicked on this element By.xpath: //button[contains(@class,'login')] . 
+2022-08-16 08:24:49,836 INFO  [BasePage] By.cssSelector: input#search-input Element found. 
+2022-08-16 08:24:49,978 INFO  [BasePage] This element By.cssSelector: input#search-input has been scrolled. 
+2022-08-16 08:24:49,978 INFO  [BasePage] By.cssSelector: input#search-input Element found. 
+2022-08-16 08:24:50,012 INFO  [BasePage] By.cssSelector: input#search-input Element found. 
+2022-08-16 08:24:50,065 INFO  [BasePage] Felsefe has been written to this element By.cssSelector: input#search-input . 
+2022-08-16 08:24:50,065 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element found. 
+2022-08-16 08:24:50,203 INFO  [BasePage] This element By.xpath: //span[contains(@class,'search')] has been scrolled. 
+2022-08-16 08:24:50,203 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element found. 
+2022-08-16 08:24:52,033 INFO  [BasePage] Clicked on this element By.xpath: //span[contains(@class,'search')] . 
+2022-08-16 08:24:52,040 INFO  [BasePage] By.xpath: //a[contains(@href,'search&page')] Elements of this have been found. 
+2022-08-16 08:24:55,114 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Elements of this have been found. 
+2022-08-16 08:24:58,715 INFO  [BasePage] By.xpath: //div[@class="price__item"] Element found. 
+2022-08-16 08:24:58,742 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:220')] Element found. 
+2022-08-16 08:25:18,810 INFO  [BasePage] By.id: button-cart Element found. 
+2022-08-16 08:25:18,951 INFO  [BasePage] This element By.id: button-cart has been scrolled. 
+2022-08-16 08:25:18,951 INFO  [BasePage] By.id: button-cart Element found. 
+2022-08-16 08:25:18,999 INFO  [BasePage] Clicked on this element By.id: button-cart . 
+2022-08-16 08:25:21,002 INFO  [BasePage] By.id: cart-items Element found. 
+2022-08-16 08:25:21,145 INFO  [BasePage] This element By.id: cart-items has been scrolled. 
+2022-08-16 08:25:21,145 INFO  [BasePage] By.id: cart-items Element found. 
+2022-08-16 08:25:21,187 INFO  [BasePage] Clicked on this element By.id: cart-items . 
+2022-08-16 08:25:21,187 INFO  [BasePage] By.id: js-cart Element found. 
+2022-08-16 08:25:21,518 INFO  [BasePage] This element By.id: js-cart has been scrolled. 
+2022-08-16 08:25:21,518 INFO  [BasePage] By.id: js-cart Element found. 
+2022-08-16 08:25:22,249 INFO  [BasePage] Clicked on this element By.id: js-cart . 
+2022-08-16 08:25:24,258 INFO  [BasePage] By.xpath: //span[@class="price-new"] Element found. 
+2022-08-16 08:25:28,300 INFO  [BasePage] By.xpath: //img[@style="max-height:80px;"] Elements of this have been found. 
+2022-08-16 08:25:28,300 INFO  [BasePage] By.name: quantity Element found. 
+2022-08-16 08:25:28,446 INFO  [BasePage] This element By.name: quantity has been scrolled. 
+2022-08-16 08:25:28,446 INFO  [BasePage] By.name: quantity Element found. 
+2022-08-16 08:25:28,485 INFO  [BasePage] By.name: quantity Element found. 
+2022-08-16 08:25:28,523 INFO  [BasePage] 2 has been written to this element By.name: quantity . 
+2022-08-16 08:25:28,523 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Element found. 
+2022-08-16 08:25:28,661 INFO  [BasePage] This element By.xpath: //i[contains(@onclick,'cart')] has been scrolled. 
+2022-08-16 08:25:28,661 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Element found. 
+2022-08-16 08:25:28,706 INFO  [BasePage] Clicked on this element By.xpath: //i[contains(@onclick,'cart')] . 
+2022-08-16 08:25:30,713 INFO  [BasePage] By.xpath: //input[@value="2"] Element found. 
+2022-08-16 08:25:30,752 INFO  [BasePage] By.xpath: //a[contains(@href,'route=checkout') and @class="button red"] Elements of this have been found. 
+2022-08-16 08:25:32,278 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Element found. 
+2022-08-16 08:25:32,420 INFO  [BasePage] This element By.xpath: //a[contains(@onclick,'new')] has been scrolled. 
+2022-08-16 08:25:32,421 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Element found. 
+2022-08-16 08:25:32,476 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@onclick,'new')] . 
+2022-08-16 08:25:32,476 INFO  [BasePage] By.name: firstname_companyname Element found. 
+2022-08-16 08:25:32,623 INFO  [BasePage] This element By.name: firstname_companyname has been scrolled. 
+2022-08-16 08:25:32,624 INFO  [BasePage] By.name: firstname_companyname Element found. 
+2022-08-16 08:25:32,662 INFO  [BasePage] By.name: firstname_companyname Element found. 
+2022-08-16 08:25:32,716 INFO  [BasePage] Testinium has been written to this element By.name: firstname_companyname . 
+2022-08-16 08:25:32,717 INFO  [BasePage] By.name: lastname_title Element found. 
+2022-08-16 08:25:32,857 INFO  [BasePage] This element By.name: lastname_title has been scrolled. 
+2022-08-16 08:25:32,857 INFO  [BasePage] By.name: lastname_title Element found. 
+2022-08-16 08:25:32,891 INFO  [BasePage] By.name: lastname_title Element found. 
+2022-08-16 08:25:32,941 INFO  [BasePage] Software Testing has been written to this element By.name: lastname_title . 
+2022-08-16 08:25:32,943 INFO  [BasePage] By.id: address-zone-id Element found. 
+2022-08-16 08:25:33,013 INFO  [BasePage] By.id: address-county-id Element found. 
+2022-08-16 08:25:33,200 INFO  [BasePage] By.id: district Element found. 
+2022-08-16 08:25:33,324 INFO  [BasePage] This element By.id: district has been scrolled. 
+2022-08-16 08:25:33,324 INFO  [BasePage] By.id: district Element found. 
+2022-08-16 08:25:33,385 INFO  [BasePage] By.id: district Element found. 
+2022-08-16 08:25:33,451 INFO  [BasePage] SOĞANLIK YENİ MAH has been written to this element By.id: district . 
+2022-08-16 08:25:33,451 INFO  [BasePage] By.id: address-address-text Element found. 
+2022-08-16 08:25:33,573 INFO  [BasePage] This element By.id: address-address-text has been scrolled. 
+2022-08-16 08:25:33,573 INFO  [BasePage] By.id: address-address-text Element found. 
+2022-08-16 08:25:33,604 INFO  [BasePage] By.id: address-address-text Element found. 
+2022-08-16 08:25:33,654 INFO  [BasePage] Testinium Merkez Bina has been written to this element By.id: address-address-text . 
+2022-08-16 08:25:33,655 INFO  [BasePage] By.id: address-postcode Element found. 
+2022-08-16 08:25:33,773 INFO  [BasePage] This element By.id: address-postcode has been scrolled. 
+2022-08-16 08:25:33,773 INFO  [BasePage] By.id: address-postcode Element found. 
+2022-08-16 08:25:33,804 INFO  [BasePage] By.id: address-postcode Element found. 
+2022-08-16 08:25:33,855 INFO  [BasePage] 34870 has been written to this element By.id: address-postcode . 
+2022-08-16 08:25:33,855 INFO  [BasePage] By.id: address-mobile-telephone Element found. 
+2022-08-16 08:25:33,973 INFO  [BasePage] This element By.id: address-mobile-telephone has been scrolled. 
+2022-08-16 08:25:33,973 INFO  [BasePage] By.id: address-mobile-telephone Element found. 
+2022-08-16 08:25:34,004 INFO  [BasePage] By.id: address-mobile-telephone Element found. 
+2022-08-16 08:25:34,053 INFO  [BasePage] 5301234562 has been written to this element By.id: address-mobile-telephone . 
+2022-08-16 08:25:34,053 INFO  [BasePage] By.id: address-telephone Element found. 
+2022-08-16 08:25:34,189 INFO  [BasePage] This element By.id: address-telephone has been scrolled. 
+2022-08-16 08:25:34,189 INFO  [BasePage] By.id: address-telephone Element found. 
+2022-08-16 08:25:34,220 INFO  [BasePage] By.id: address-telephone Element found. 
+2022-08-16 08:25:34,273 INFO  [BasePage] 2121234562 has been written to this element By.id: address-telephone . 
+2022-08-16 08:25:34,273 INFO  [BasePage] By.id: address_type_2 Element found. 
+2022-08-16 08:25:34,405 INFO  [BasePage] This element By.id: address_type_2 has been scrolled. 
+2022-08-16 08:25:34,405 INFO  [BasePage] By.id: address_type_2 Element found. 
+2022-08-16 08:25:34,480 INFO  [BasePage] Clicked on this element By.id: address_type_2 . 
+2022-08-16 08:25:37,486 INFO  [BasePage] By.name: company_id Element found. 
+2022-08-16 08:25:37,631 INFO  [BasePage] This element By.name: company_id has been scrolled. 
+2022-08-16 08:25:37,631 INFO  [BasePage] By.name: company_id Element found. 
+2022-08-16 08:25:37,667 INFO  [BasePage] By.name: company_id Element found. 
+2022-08-16 08:25:37,730 INFO  [BasePage] Kartal Vergi Dairesi has been written to this element By.name: company_id . 
+2022-08-16 08:25:37,730 INFO  [BasePage] By.name: tax_id Element found. 
+2022-08-16 08:25:37,869 INFO  [BasePage] This element By.name: tax_id has been scrolled. 
+2022-08-16 08:25:37,869 INFO  [BasePage] By.name: tax_id Element found. 
+2022-08-16 08:25:37,900 INFO  [BasePage] By.name: tax_id Element found. 
+2022-08-16 08:25:37,953 INFO  [BasePage] 1234567890 has been written to this element By.name: tax_id . 
+2022-08-16 08:25:39,956 INFO  [BasePage] By.id: button-checkout-continue Element found. 
+2022-08-16 08:25:40,087 INFO  [BasePage] This element By.id: button-checkout-continue has been scrolled. 
+2022-08-16 08:25:40,088 INFO  [BasePage] By.id: button-checkout-continue Element found. 
+2022-08-16 08:25:40,146 INFO  [BasePage] Clicked on this element By.id: button-checkout-continue . 
+2022-08-16 08:25:41,166 INFO  [BasePage] https://www.kitapyurdu.com/index.php?route=checkout/checkout#ShippingMethod website loaded successfully. 
+2022-08-16 08:25:43,184 INFO  [BasePage] By.xpath: //input[@value="23-non"] Element found. 
+2022-08-16 08:25:43,315 INFO  [BasePage] This element By.xpath: //input[@value="23-non"] has been scrolled. 
+2022-08-16 08:25:43,315 INFO  [BasePage] By.xpath: //input[@value="23-non"] Element found. 
+2022-08-16 08:25:43,382 INFO  [BasePage] Clicked on this element By.xpath: //input[@value="23-non"] . 
+2022-08-16 08:25:43,382 INFO  [BasePage] By.id: button-checkout-continue Element found. 
+2022-08-16 08:25:43,498 INFO  [BasePage] This element By.id: button-checkout-continue has been scrolled. 
+2022-08-16 08:25:43,498 INFO  [BasePage] By.id: button-checkout-continue Element found. 
+2022-08-16 08:25:43,558 INFO  [BasePage] Clicked on this element By.id: button-checkout-continue . 
+2022-08-16 08:25:45,593 INFO  [BasePage] https://www.kitapyurdu.com/index.php?route=checkout/checkout#PaymentMethod website loaded successfully. 
+2022-08-16 08:25:47,603 INFO  [BasePage] By.id: cart-header Element found. 
+2022-08-16 08:25:47,732 INFO  [BasePage] This element By.id: cart-header has been scrolled. 
+2022-08-16 08:25:47,732 INFO  [BasePage] By.id: cart-header Element found. 
+2022-08-16 08:25:48,268 INFO  [BasePage] Clicked on this element By.id: cart-header . 
+2022-08-16 08:25:50,272 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Element found. 
+2022-08-16 08:25:50,407 INFO  [BasePage] This element By.xpath: //i[@title="Kaldır"] has been scrolled. 
+2022-08-16 08:25:50,407 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Element found. 
+2022-08-16 08:25:50,453 INFO  [BasePage] Clicked on this element By.xpath: //i[@title="Kaldır"] . 
+2022-08-16 08:25:52,467 INFO  [BasePage] By.xpath: //div[contains(@style,"20")] Element found. 
+2022-08-16 08:25:52,497 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element found. 
+2022-08-16 08:25:52,641 INFO  [BasePage] This element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] has been scrolled. 
+2022-08-16 08:25:52,641 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element found. 
+2022-08-16 08:25:53,388 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] . 
+2022-08-16 08:25:53,388 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Element found. 
+2022-08-16 08:25:53,527 INFO  [BasePage] This element By.xpath: //a[contains(@href,'address') and @class='highlight-link'] has been scrolled. 
+2022-08-16 08:25:53,527 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Element found. 
+2022-08-16 08:25:53,923 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'address') and @class='highlight-link'] . 
+2022-08-16 08:25:53,924 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')] Elements of this have been found. 
+2022-08-16 08:25:54,485 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')] Elements of this have been found. 
+2022-08-16 08:25:54,495 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element found. 
+2022-08-16 08:25:54,636 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')] Element found. 
+2022-08-16 08:25:56,457 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element found. 
+2022-08-16 08:42:03,567 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 08:42:03,707 INFO  [BasePage] This element By.xpath: //a[contains(@href,'login')] has been scrolled. 
+2022-08-16 08:42:03,707 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 08:42:05,226 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'login')] . 
+2022-08-16 08:42:05,226 INFO  [BasePage] Directing to Login Page. 
+2022-08-16 08:42:05,226 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 08:42:05,359 INFO  [BasePage] This element By.id: login-email has been scrolled. 
+2022-08-16 08:42:05,359 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 08:42:05,404 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 08:42:05,466 INFO  [BasePage] kyakut35@gmail.com has been written to this element By.id: login-email . 
+2022-08-16 08:42:05,466 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 08:42:05,597 INFO  [BasePage] This element By.id: login-password has been scrolled. 
+2022-08-16 08:42:05,597 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 08:42:05,645 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 08:42:05,692 INFO  [BasePage] 12345678 has been written to this element By.id: login-password . 
+2022-08-16 08:42:05,692 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 08:42:05,825 INFO  [BasePage] This element By.xpath: //button[contains(@class,'login')] has been scrolled. 
+2022-08-16 08:42:05,825 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 08:42:05,883 INFO  [BasePage] Clicked on this element By.xpath: //button[contains(@class,'login')] . 
+2022-08-16 08:42:05,884 INFO  [BasePage] kyakut35@gmail.com and 12345678written in appropriate places. 
+2022-08-16 08:42:10,942 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 08:42:11,077 INFO  [BasePage] This element By.cssSelector: input#search-input has been scrolled. 
+2022-08-16 08:42:11,077 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 08:42:11,108 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 08:42:11,170 INFO  [BasePage] Felsefe has been written to this element By.cssSelector: input#search-input . 
+2022-08-16 08:42:11,170 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 08:42:11,301 INFO  [BasePage] This element By.xpath: //span[contains(@class,'search')] has been scrolled. 
+2022-08-16 08:42:11,301 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 08:42:12,737 INFO  [BasePage] Clicked on this element By.xpath: //span[contains(@class,'search')] . 
+2022-08-16 08:42:12,738 INFO  [BasePage] Searching for Felsefe . 
+2022-08-16 08:42:12,746 INFO  [BasePage] By.xpath: //a[contains(@href,'search&page')] Elements of this have been found. 
+2022-08-16 08:42:17,176 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Elements of this have been found. 
+2022-08-16 08:42:24,263 INFO  [BasePage] By.xpath: //div[@class="price__item"] Element founded. 
+2022-08-16 08:42:24,294 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:220')] Element founded. 
+2022-08-16 08:42:24,324 INFO  [BasePage] By.id: button-cart Element founded. 
+2022-08-16 08:42:24,463 INFO  [BasePage] This element By.id: button-cart has been scrolled. 
+2022-08-16 08:42:24,463 INFO  [BasePage] By.id: button-cart Element founded. 
+2022-08-16 08:42:24,512 INFO  [BasePage] Clicked on this element By.id: button-cart . 
+2022-08-16 08:42:26,520 INFO  [BasePage] By.id: cart-items Element founded. 
+2022-08-16 08:42:26,660 INFO  [BasePage] This element By.id: cart-items has been scrolled. 
+2022-08-16 08:42:26,660 INFO  [BasePage] By.id: cart-items Element founded. 
+2022-08-16 08:42:26,698 INFO  [BasePage] Clicked on this element By.id: cart-items . 
+2022-08-16 08:42:26,698 INFO  [BasePage] By.id: js-cart Element founded. 
+2022-08-16 08:42:32,217 INFO  [BasePage] This element By.id: js-cart has been scrolled. 
+2022-08-16 08:42:32,218 INFO  [BasePage] By.id: js-cart Element founded. 
+2022-08-16 08:42:36,117 INFO  [BasePage] Clicked on this element By.id: js-cart . 
+2022-08-16 08:42:38,129 INFO  [BasePage] By.xpath: //span[@class="price-new"] Element founded. 
+2022-08-16 08:42:42,169 INFO  [BasePage] By.xpath: //img[@style="max-height:80px;"] Elements of this have been found. 
+2022-08-16 08:42:42,196 INFO  [BasePage] By.name: quantity Element founded. 
+2022-08-16 08:42:42,327 INFO  [BasePage] This element By.name: quantity has been scrolled. 
+2022-08-16 08:42:42,327 INFO  [BasePage] By.name: quantity Element founded. 
+2022-08-16 08:42:42,361 INFO  [BasePage] By.name: quantity Element founded. 
+2022-08-16 08:42:42,403 INFO  [BasePage] 2 has been written to this element By.name: quantity . 
+2022-08-16 08:42:42,403 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Element founded. 
+2022-08-16 08:42:42,543 INFO  [BasePage] This element By.xpath: //i[contains(@onclick,'cart')] has been scrolled. 
+2022-08-16 08:42:42,543 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Element founded. 
+2022-08-16 08:42:42,583 INFO  [BasePage] Clicked on this element By.xpath: //i[contains(@onclick,'cart')] . 
+2022-08-16 08:42:44,594 INFO  [BasePage] By.xpath: //input[@value="2"] Element founded. 
+2022-08-16 08:42:50,905 INFO  [BasePage] By.xpath: //a[contains(@href,'route=checkout') and @class="button red"] Elements of this have been found. 
+2022-08-16 08:42:53,203 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Element founded. 
+2022-08-16 08:42:53,342 INFO  [BasePage] This element By.xpath: //a[contains(@onclick,'new')] has been scrolled. 
+2022-08-16 08:42:53,343 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Element founded. 
+2022-08-16 08:42:53,389 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@onclick,'new')] . 
+2022-08-16 08:42:53,389 INFO  [BasePage] By.name: firstname_companyname Element founded. 
+2022-08-16 08:42:53,543 INFO  [BasePage] This element By.name: firstname_companyname has been scrolled. 
+2022-08-16 08:42:53,543 INFO  [BasePage] By.name: firstname_companyname Element founded. 
+2022-08-16 08:42:53,578 INFO  [BasePage] By.name: firstname_companyname Element founded. 
+2022-08-16 08:42:53,635 INFO  [BasePage] Testinium has been written to this element By.name: firstname_companyname . 
+2022-08-16 08:42:53,635 INFO  [BasePage] By.name: lastname_title Element founded. 
+2022-08-16 08:42:53,759 INFO  [BasePage] This element By.name: lastname_title has been scrolled. 
+2022-08-16 08:42:53,759 INFO  [BasePage] By.name: lastname_title Element founded. 
+2022-08-16 08:42:53,798 INFO  [BasePage] By.name: lastname_title Element founded. 
+2022-08-16 08:42:53,850 INFO  [BasePage] Software Testing has been written to this element By.name: lastname_title . 
+2022-08-16 08:42:53,851 INFO  [BasePage] By.id: address-zone-id Element founded. 
+2022-08-16 08:42:53,919 INFO  [BasePage] By.id: address-county-id Element founded. 
+2022-08-16 08:42:55,164 INFO  [BasePage] By.id: district Element founded. 
+2022-08-16 08:42:55,291 INFO  [BasePage] This element By.id: district has been scrolled. 
+2022-08-16 08:42:55,292 INFO  [BasePage] By.id: district Element founded. 
+2022-08-16 08:42:55,324 INFO  [BasePage] By.id: district Element founded. 
+2022-08-16 08:42:55,380 INFO  [BasePage] SOĞANLIK YENİ MAH has been written to this element By.id: district . 
+2022-08-16 08:42:55,380 INFO  [BasePage] By.id: address-address-text Element founded. 
+2022-08-16 08:42:55,503 INFO  [BasePage] This element By.id: address-address-text has been scrolled. 
+2022-08-16 08:42:55,503 INFO  [BasePage] By.id: address-address-text Element founded. 
+2022-08-16 08:42:55,532 INFO  [BasePage] By.id: address-address-text Element founded. 
+2022-08-16 08:42:55,584 INFO  [BasePage] Testinium Merkez Bina has been written to this element By.id: address-address-text . 
+2022-08-16 08:42:55,584 INFO  [BasePage] By.id: address-postcode Element founded. 
+2022-08-16 08:42:55,729 INFO  [BasePage] This element By.id: address-postcode has been scrolled. 
+2022-08-16 08:42:55,729 INFO  [BasePage] By.id: address-postcode Element founded. 
+2022-08-16 08:42:55,762 INFO  [BasePage] By.id: address-postcode Element founded. 
+2022-08-16 08:42:55,804 INFO  [BasePage] 34870 has been written to this element By.id: address-postcode . 
+2022-08-16 08:42:55,804 INFO  [BasePage] By.id: address-mobile-telephone Element founded. 
+2022-08-16 08:42:55,928 INFO  [BasePage] This element By.id: address-mobile-telephone has been scrolled. 
+2022-08-16 08:42:55,928 INFO  [BasePage] By.id: address-mobile-telephone Element founded. 
+2022-08-16 08:42:55,961 INFO  [BasePage] By.id: address-mobile-telephone Element founded. 
+2022-08-16 08:42:56,013 INFO  [BasePage] 5301234562 has been written to this element By.id: address-mobile-telephone . 
+2022-08-16 08:42:56,013 INFO  [BasePage] By.id: address-telephone Element founded. 
+2022-08-16 08:42:56,147 INFO  [BasePage] This element By.id: address-telephone has been scrolled. 
+2022-08-16 08:42:56,148 INFO  [BasePage] By.id: address-telephone Element founded. 
+2022-08-16 08:42:56,180 INFO  [BasePage] By.id: address-telephone Element founded. 
+2022-08-16 08:42:56,232 INFO  [BasePage] 2121234562 has been written to this element By.id: address-telephone . 
+2022-08-16 08:42:56,232 INFO  [BasePage] By.id: address_type_2 Element founded. 
+2022-08-16 08:42:56,365 INFO  [BasePage] This element By.id: address_type_2 has been scrolled. 
+2022-08-16 08:42:56,366 INFO  [BasePage] By.id: address_type_2 Element founded. 
+2022-08-16 08:42:56,406 INFO  [BasePage] Clicked on this element By.id: address_type_2 . 
+2022-08-16 08:42:59,417 INFO  [BasePage] By.name: company_id Element founded. 
+2022-08-16 08:42:59,556 INFO  [BasePage] This element By.name: company_id has been scrolled. 
+2022-08-16 08:42:59,556 INFO  [BasePage] By.name: company_id Element founded. 
+2022-08-16 08:42:59,587 INFO  [BasePage] By.name: company_id Element founded. 
+2022-08-16 08:42:59,646 INFO  [BasePage] Kartal Vergi Dairesi has been written to this element By.name: company_id . 
+2022-08-16 08:42:59,646 INFO  [BasePage] By.name: tax_id Element founded. 
+2022-08-16 08:42:59,782 INFO  [BasePage] This element By.name: tax_id has been scrolled. 
+2022-08-16 08:42:59,782 INFO  [BasePage] By.name: tax_id Element founded. 
+2022-08-16 08:42:59,813 INFO  [BasePage] By.name: tax_id Element founded. 
+2022-08-16 08:42:59,865 INFO  [BasePage] 1234567890 has been written to this element By.name: tax_id . 
+2022-08-16 08:43:01,876 INFO  [BasePage] By.id: button-checkout-continue Element founded. 
+2022-08-16 08:43:02,007 INFO  [BasePage] This element By.id: button-checkout-continue has been scrolled. 
+2022-08-16 08:43:02,007 INFO  [BasePage] By.id: button-checkout-continue Element founded. 
+2022-08-16 08:43:02,067 INFO  [BasePage] Clicked on this element By.id: button-checkout-continue . 
+2022-08-16 08:43:03,082 INFO  [BasePage] https://www.kitapyurdu.com/index.php?route=checkout/checkout#ShippingMethod website loaded successfully. 
+2022-08-16 08:43:05,102 INFO  [BasePage] By.xpath: //input[@value="23-non"] Element founded. 
+2022-08-16 08:43:05,244 INFO  [BasePage] This element By.xpath: //input[@value="23-non"] has been scrolled. 
+2022-08-16 08:43:05,244 INFO  [BasePage] By.xpath: //input[@value="23-non"] Element founded. 
+2022-08-16 08:43:05,294 INFO  [BasePage] Clicked on this element By.xpath: //input[@value="23-non"] . 
+2022-08-16 08:43:05,294 INFO  [BasePage] By.id: button-checkout-continue Element founded. 
+2022-08-16 08:43:05,430 INFO  [BasePage] This element By.id: button-checkout-continue has been scrolled. 
+2022-08-16 08:43:05,430 INFO  [BasePage] By.id: button-checkout-continue Element founded. 
+2022-08-16 08:43:05,478 INFO  [BasePage] Clicked on this element By.id: button-checkout-continue . 
+2022-08-16 08:43:07,495 INFO  [BasePage] https://www.kitapyurdu.com/index.php?route=checkout/checkout#PaymentMethod website loaded successfully. 
+2022-08-16 08:43:09,516 INFO  [BasePage] By.id: cart-header Element founded. 
+2022-08-16 08:43:09,650 INFO  [BasePage] This element By.id: cart-header has been scrolled. 
+2022-08-16 08:43:09,650 INFO  [BasePage] By.id: cart-header Element founded. 
+2022-08-16 08:43:10,216 INFO  [BasePage] Clicked on this element By.id: cart-header . 
+2022-08-16 08:43:12,218 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Element founded. 
+2022-08-16 08:43:12,350 INFO  [BasePage] This element By.xpath: //i[@title="Kaldır"] has been scrolled. 
+2022-08-16 08:43:12,350 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Element founded. 
+2022-08-16 08:43:12,408 INFO  [BasePage] Clicked on this element By.xpath: //i[@title="Kaldır"] . 
+2022-08-16 08:43:14,412 INFO  [BasePage] By.xpath: //div[contains(@style,"20")] Element founded. 
+2022-08-16 08:43:14,446 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 08:43:14,584 INFO  [BasePage] This element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] has been scrolled. 
+2022-08-16 08:43:14,584 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 08:43:15,076 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] . 
+2022-08-16 08:43:15,076 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Element founded. 
+2022-08-16 08:43:15,223 INFO  [BasePage] This element By.xpath: //a[contains(@href,'address') and @class='highlight-link'] has been scrolled. 
+2022-08-16 08:43:15,223 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Element founded. 
+2022-08-16 08:43:15,692 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'address') and @class='highlight-link'] . 
+2022-08-16 08:43:15,693 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')] Elements of this have been found. 
+2022-08-16 08:43:16,298 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')] Elements of this have been found. 
+2022-08-16 08:43:16,312 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 08:43:16,449 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')] Element founded. 
+2022-08-16 08:43:18,687 INFO  [BasePage] Logout from website successfully. 
+2022-08-16 08:43:18,687 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 08:59:02,440 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 08:59:02,588 INFO  [BasePage] This element By.xpath: //a[contains(@href,'login')] has been scrolled. 
+2022-08-16 08:59:02,588 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 08:59:03,701 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'login')] . 
+2022-08-16 08:59:03,702 INFO  [BasePage] Directing to Login Page. 
+2022-08-16 08:59:03,702 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 08:59:03,839 INFO  [BasePage] This element By.id: login-email has been scrolled. 
+2022-08-16 08:59:03,839 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 08:59:03,870 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 08:59:03,934 INFO  [BasePage] kyakut35@gmail.com has been written to this element By.id: login-email . 
+2022-08-16 08:59:03,935 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 08:59:04,059 INFO  [BasePage] This element By.id: login-password has been scrolled. 
+2022-08-16 08:59:04,059 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 08:59:04,092 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 08:59:04,134 INFO  [BasePage] 12345678 has been written to this element By.id: login-password . 
+2022-08-16 08:59:04,134 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 08:59:04,272 INFO  [BasePage] This element By.xpath: //button[contains(@class,'login')] has been scrolled. 
+2022-08-16 08:59:04,272 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 08:59:04,321 INFO  [BasePage] Clicked on this element By.xpath: //button[contains(@class,'login')] . 
+2022-08-16 08:59:04,322 INFO  [BasePage] kyakut35@gmail.com and 12345678 written in appropriate places. 
+2022-08-16 08:59:09,349 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 08:59:09,483 INFO  [BasePage] This element By.cssSelector: input#search-input has been scrolled. 
+2022-08-16 08:59:09,483 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 08:59:09,514 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 08:59:09,570 INFO  [BasePage] Felsefe has been written to this element By.cssSelector: input#search-input . 
+2022-08-16 08:59:09,571 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 08:59:09,717 INFO  [BasePage] This element By.xpath: //span[contains(@class,'search')] has been scrolled. 
+2022-08-16 08:59:09,717 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 08:59:11,095 INFO  [BasePage] Clicked on this element By.xpath: //span[contains(@class,'search')] . 
+2022-08-16 08:59:11,096 INFO  [BasePage] Searching for Felsefe . 
+2022-08-16 08:59:11,104 INFO  [BasePage] By.xpath: //a[contains(@href,'search&page')] Elements of this have been found. 
+2022-08-16 08:59:14,001 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Elements of this have been found. 
+2022-08-16 08:59:16,896 INFO  [BasePage] Selected random book from page 2. 
+2022-08-16 08:59:16,896 INFO  [BasePage] By.xpath: //div[@class="price__item"] Element founded. 
+2022-08-16 08:59:16,912 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:220')] Element founded. 
+2022-08-16 08:59:16,943 INFO  [BasePage] By.id: button-cart Element founded. 
+2022-08-16 08:59:17,093 INFO  [BasePage] This element By.id: button-cart has been scrolled. 
+2022-08-16 08:59:17,093 INFO  [BasePage] By.id: button-cart Element founded. 
+2022-08-16 08:59:17,139 INFO  [BasePage] Clicked on this element By.id: button-cart . 
+2022-08-16 08:59:19,146 INFO  [BasePage] By.id: cart-items Element founded. 
+2022-08-16 08:59:19,288 INFO  [BasePage] This element By.id: cart-items has been scrolled. 
+2022-08-16 08:59:19,288 INFO  [BasePage] By.id: cart-items Element founded. 
+2022-08-16 08:59:19,325 INFO  [BasePage] Clicked on this element By.id: cart-items . 
+2022-08-16 08:59:19,325 INFO  [BasePage] By.id: js-cart Element founded. 
+2022-08-16 08:59:24,123 INFO  [BasePage] This element By.id: js-cart has been scrolled. 
+2022-08-16 08:59:24,123 INFO  [BasePage] By.id: js-cart Element founded. 
+2022-08-16 08:59:26,207 INFO  [BasePage] Clicked on this element By.id: js-cart . 
+2022-08-16 08:59:28,221 INFO  [BasePage] By.xpath: //span[@class="price-new"] Element founded. 
+2022-08-16 08:59:28,257 INFO  [BasePage] The price in the cart matched the price on the search page. 
+2022-08-16 08:59:32,271 INFO  [BasePage] By.xpath: //img[@style="max-height:80px;"] Elements of this have been found. 
+2022-08-16 08:59:32,283 INFO  [BasePage] The expected number of books in the basket was match. 
+2022-08-16 08:59:32,285 INFO  [BasePage] By.name: quantity Element founded. 
+2022-08-16 08:59:32,411 INFO  [BasePage] This element By.name: quantity has been scrolled. 
+2022-08-16 08:59:32,411 INFO  [BasePage] By.name: quantity Element founded. 
+2022-08-16 08:59:32,445 INFO  [BasePage] By.name: quantity Element founded. 
+2022-08-16 08:59:32,483 INFO  [BasePage] 2 has been written to this element By.name: quantity . 
+2022-08-16 08:59:32,483 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Element founded. 
+2022-08-16 08:59:32,609 INFO  [BasePage] This element By.xpath: //i[contains(@onclick,'cart')] has been scrolled. 
+2022-08-16 08:59:32,609 INFO  [BasePage] By.xpath: //i[contains(@onclick,'cart')] Element founded. 
+2022-08-16 08:59:32,648 INFO  [BasePage] Clicked on this element By.xpath: //i[contains(@onclick,'cart')] . 
+2022-08-16 08:59:32,648 INFO  [BasePage] The number of orders was 2. 
+2022-08-16 08:59:34,662 INFO  [BasePage] By.xpath: //input[@value="2"] Element founded. 
+2022-08-16 08:59:35,123 INFO  [BasePage] By.xpath: //a[contains(@href,'route=checkout') and @class="button red"] Elements of this have been found. 
+2022-08-16 08:59:41,647 INFO  [BasePage] Going to checkout page. 
+2022-08-16 08:59:42,658 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Element founded. 
+2022-08-16 08:59:42,796 INFO  [BasePage] This element By.xpath: //a[contains(@onclick,'new')] has been scrolled. 
+2022-08-16 08:59:42,796 INFO  [BasePage] By.xpath: //a[contains(@onclick,'new')] Element founded. 
+2022-08-16 08:59:42,852 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@onclick,'new')] . 
+2022-08-16 08:59:42,852 INFO  [BasePage] By.name: firstname_companyname Element founded. 
+2022-08-16 08:59:43,012 INFO  [BasePage] This element By.name: firstname_companyname has been scrolled. 
+2022-08-16 08:59:43,012 INFO  [BasePage] By.name: firstname_companyname Element founded. 
+2022-08-16 08:59:43,047 INFO  [BasePage] By.name: firstname_companyname Element founded. 
+2022-08-16 08:59:43,100 INFO  [BasePage] Testinium has been written to this element By.name: firstname_companyname . 
+2022-08-16 08:59:43,100 INFO  [BasePage] By.name: lastname_title Element founded. 
+2022-08-16 08:59:43,244 INFO  [BasePage] This element By.name: lastname_title has been scrolled. 
+2022-08-16 08:59:43,244 INFO  [BasePage] By.name: lastname_title Element founded. 
+2022-08-16 08:59:43,280 INFO  [BasePage] By.name: lastname_title Element founded. 
+2022-08-16 08:59:43,331 INFO  [BasePage] Software Testing has been written to this element By.name: lastname_title . 
+2022-08-16 08:59:43,332 INFO  [BasePage] By.id: address-zone-id Element founded. 
+2022-08-16 08:59:43,398 INFO  [BasePage] By.id: address-county-id Element founded. 
+2022-08-16 08:59:43,656 INFO  [BasePage] By.id: district Element founded. 
+2022-08-16 08:59:43,791 INFO  [BasePage] This element By.id: district has been scrolled. 
+2022-08-16 08:59:43,791 INFO  [BasePage] By.id: district Element founded. 
+2022-08-16 08:59:43,845 INFO  [BasePage] By.id: district Element founded. 
+2022-08-16 08:59:43,915 INFO  [BasePage] SOĞANLIK YENİ MAH has been written to this element By.id: district . 
+2022-08-16 08:59:43,915 INFO  [BasePage] By.id: address-address-text Element founded. 
+2022-08-16 08:59:44,037 INFO  [BasePage] This element By.id: address-address-text has been scrolled. 
+2022-08-16 08:59:44,037 INFO  [BasePage] By.id: address-address-text Element founded. 
+2022-08-16 08:59:44,052 INFO  [BasePage] By.id: address-address-text Element founded. 
+2022-08-16 08:59:44,117 INFO  [BasePage] Testinium Merkez Bina has been written to this element By.id: address-address-text . 
+2022-08-16 08:59:44,117 INFO  [BasePage] By.id: address-postcode Element founded. 
+2022-08-16 08:59:44,237 INFO  [BasePage] This element By.id: address-postcode has been scrolled. 
+2022-08-16 08:59:44,237 INFO  [BasePage] By.id: address-postcode Element founded. 
+2022-08-16 08:59:44,268 INFO  [BasePage] By.id: address-postcode Element founded. 
+2022-08-16 08:59:44,319 INFO  [BasePage] 34870 has been written to this element By.id: address-postcode . 
+2022-08-16 08:59:44,319 INFO  [BasePage] By.id: address-mobile-telephone Element founded. 
+2022-08-16 08:59:44,454 INFO  [BasePage] This element By.id: address-mobile-telephone has been scrolled. 
+2022-08-16 08:59:44,454 INFO  [BasePage] By.id: address-mobile-telephone Element founded. 
+2022-08-16 08:59:44,501 INFO  [BasePage] By.id: address-mobile-telephone Element founded. 
+2022-08-16 08:59:44,548 INFO  [BasePage] 5301234562 has been written to this element By.id: address-mobile-telephone . 
+2022-08-16 08:59:44,548 INFO  [BasePage] By.id: address-telephone Element founded. 
+2022-08-16 08:59:44,672 INFO  [BasePage] This element By.id: address-telephone has been scrolled. 
+2022-08-16 08:59:44,672 INFO  [BasePage] By.id: address-telephone Element founded. 
+2022-08-16 08:59:44,704 INFO  [BasePage] By.id: address-telephone Element founded. 
+2022-08-16 08:59:44,752 INFO  [BasePage] 2121234562 has been written to this element By.id: address-telephone . 
+2022-08-16 08:59:44,752 INFO  [BasePage] By.id: address_type_2 Element founded. 
+2022-08-16 08:59:44,889 INFO  [BasePage] This element By.id: address_type_2 has been scrolled. 
+2022-08-16 08:59:44,889 INFO  [BasePage] By.id: address_type_2 Element founded. 
+2022-08-16 08:59:44,939 INFO  [BasePage] Clicked on this element By.id: address_type_2 . 
+2022-08-16 08:59:47,949 INFO  [BasePage] By.name: company_id Element founded. 
+2022-08-16 08:59:48,088 INFO  [BasePage] This element By.name: company_id has been scrolled. 
+2022-08-16 08:59:48,088 INFO  [BasePage] By.name: company_id Element founded. 
+2022-08-16 08:59:48,112 INFO  [BasePage] By.name: company_id Element founded. 
+2022-08-16 08:59:48,184 INFO  [BasePage] Kartal Vergi Dairesi has been written to this element By.name: company_id . 
+2022-08-16 08:59:48,185 INFO  [BasePage] By.name: tax_id Element founded. 
+2022-08-16 08:59:48,319 INFO  [BasePage] This element By.name: tax_id has been scrolled. 
+2022-08-16 08:59:48,319 INFO  [BasePage] By.name: tax_id Element founded. 
+2022-08-16 08:59:48,365 INFO  [BasePage] By.name: tax_id Element founded. 
+2022-08-16 08:59:48,411 INFO  [BasePage] 1234567890 has been written to this element By.name: tax_id . 
+2022-08-16 08:59:50,418 INFO  [BasePage] Address information entered. 
+2022-08-16 08:59:50,418 INFO  [BasePage] By.id: button-checkout-continue Element founded. 
+2022-08-16 08:59:50,548 INFO  [BasePage] This element By.id: button-checkout-continue has been scrolled. 
+2022-08-16 08:59:50,548 INFO  [BasePage] By.id: button-checkout-continue Element founded. 
+2022-08-16 08:59:50,609 INFO  [BasePage] Clicked on this element By.id: button-checkout-continue . 
+2022-08-16 08:59:51,634 INFO  [BasePage] https://www.kitapyurdu.com/index.php?route=checkout/checkout#ShippingMethod website loaded successfully. 
+2022-08-16 08:59:53,662 INFO  [BasePage] By.xpath: //input[@value="23-non"] Element founded. 
+2022-08-16 08:59:53,799 INFO  [BasePage] This element By.xpath: //input[@value="23-non"] has been scrolled. 
+2022-08-16 08:59:53,799 INFO  [BasePage] By.xpath: //input[@value="23-non"] Element founded. 
+2022-08-16 08:59:53,843 INFO  [BasePage] Clicked on this element By.xpath: //input[@value="23-non"] . 
+2022-08-16 08:59:53,844 INFO  [BasePage] By.id: button-checkout-continue Element founded. 
+2022-08-16 08:59:53,963 INFO  [BasePage] This element By.id: button-checkout-continue has been scrolled. 
+2022-08-16 08:59:53,963 INFO  [BasePage] By.id: button-checkout-continue Element founded. 
+2022-08-16 08:59:54,010 INFO  [BasePage] Clicked on this element By.id: button-checkout-continue . 
+2022-08-16 08:59:55,014 INFO  [BasePage] PTT cargo was selected. 
+2022-08-16 08:59:56,030 INFO  [BasePage] https://www.kitapyurdu.com/index.php?route=checkout/checkout#PaymentMethod website loaded successfully. 
+2022-08-16 08:59:58,055 INFO  [BasePage] By.id: cart-header Element founded. 
+2022-08-16 08:59:58,181 INFO  [BasePage] This element By.id: cart-header has been scrolled. 
+2022-08-16 08:59:58,181 INFO  [BasePage] By.id: cart-header Element founded. 
+2022-08-16 08:59:58,754 INFO  [BasePage] Clicked on this element By.id: cart-header . 
+2022-08-16 08:59:58,754 INFO  [BasePage] Returning to cart page. 
+2022-08-16 09:00:00,757 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Element founded. 
+2022-08-16 09:00:00,889 INFO  [BasePage] This element By.xpath: //i[@title="Kaldır"] has been scrolled. 
+2022-08-16 09:00:00,889 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Element founded. 
+2022-08-16 09:00:00,932 INFO  [BasePage] Clicked on this element By.xpath: //i[@title="Kaldır"] . 
+2022-08-16 09:00:00,932 INFO  [BasePage] Car has been cleared. 
+2022-08-16 09:00:02,948 INFO  [BasePage] By.xpath: //div[contains(@style,"20")] Element founded. 
+2022-08-16 09:00:02,977 INFO  [BasePage] Cart is empty. 
+2022-08-16 09:00:02,979 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:00:03,121 INFO  [BasePage] This element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] has been scrolled. 
+2022-08-16 09:00:03,121 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:00:03,625 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] . 
+2022-08-16 09:00:03,625 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Element founded. 
+2022-08-16 09:00:03,767 INFO  [BasePage] This element By.xpath: //a[contains(@href,'address') and @class='highlight-link'] has been scrolled. 
+2022-08-16 09:00:03,767 INFO  [BasePage] By.xpath: //a[contains(@href,'address') and @class='highlight-link'] Element founded. 
+2022-08-16 09:00:04,216 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'address') and @class='highlight-link'] . 
+2022-08-16 09:00:04,216 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')] Elements of this have been found. 
+2022-08-16 09:00:05,383 INFO  [BasePage] Work address has been deleted. 
+2022-08-16 09:00:05,383 INFO  [BasePage] By.xpath: //a[contains(@href,'delete')] Elements of this have been found. 
+2022-08-16 09:00:05,393 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:00:05,538 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')] Element founded. 
+2022-08-16 09:00:07,535 INFO  [BasePage] Logout from website successfully. 
+2022-08-16 09:00:07,535 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 

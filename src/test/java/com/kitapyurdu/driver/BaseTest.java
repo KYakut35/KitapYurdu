@@ -29,19 +29,19 @@ public class BaseTest  {
         chromeOptions.addArguments("--disable-translate");
         driver = new ChromeDriver(chromeOptions);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-
         driver.get(baseURL);
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+        System.out.println("Test Scenario Initiated.\n");
     }
 
     @AfterAll
     public static void tearDown() throws InterruptedException {
         Thread.sleep(1000);
         driver.quit();
+        System.out.println("\nTest Scenario Completed.");
     }
 
    }

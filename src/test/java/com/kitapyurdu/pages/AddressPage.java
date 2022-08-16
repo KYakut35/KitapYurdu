@@ -29,6 +29,7 @@ public class AddressPage extends BasePage {
         sendKeys(By.name("company_id"),"Kartal Vergi Dairesi");
         sendKeys(By.name("tax_id"),"1234567890");
         Thread.sleep(2000);
+        logger.info("Address information entered.");
         click(By.id("button-checkout-continue"));
     }
 

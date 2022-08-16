@@ -14,6 +14,7 @@ public class ShipmentPage extends BasePage {
         click(By.xpath("//input[@value=\"23-non\"]"));
         click(By.id("button-checkout-continue"));
         Thread.sleep(1000);
+        logger.info("PTT cargo was selected.");
     }
 
     public boolean checkShipmentMethod() {

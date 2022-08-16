@@ -19,6 +19,7 @@ public class UserPage extends BasePage {
         click(By.xpath("//a[contains(@href,'route=account/account') and @class=\"common-sprite\"]"));
         click(By.xpath("//a[contains(@href,'address') and @class='highlight-link']"));
         findAllElements(By.xpath("//a[contains(@href,'delete')]")).get(0).click();
+        logger.info("Work address has been deleted.");
     }
 
     public boolean checkMyAddress() {
