@@ -2354,3 +2354,221 @@ Session ID: 44091a57221ab72a72297a211cb71b02
 2022-08-16 09:00:05,538 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')] Element founded. 
 2022-08-16 09:00:07,535 INFO  [BasePage] Logout from website successfully. 
 2022-08-16 09:00:07,535 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 09:27:08,446 INFO  [BasePage] https://www.kitapyurdu.com/ website loaded successfully. 
+2022-08-16 09:27:08,457 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 09:27:08,607 INFO  [BasePage] This element By.xpath: //a[contains(@href,'login')] has been scrolled. 
+2022-08-16 09:27:08,607 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 09:27:10,548 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'login')] . 
+2022-08-16 09:27:10,548 INFO  [BasePage] Directing to Login Page. 
+2022-08-16 09:27:10,549 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 09:27:10,685 INFO  [BasePage] This element By.id: login-email has been scrolled. 
+2022-08-16 09:27:10,685 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 09:27:10,716 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 09:27:10,782 INFO  [BasePage] kyakut35@gmail.com has been written to this element By.id: login-email . 
+2022-08-16 09:27:10,782 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 09:27:10,919 INFO  [BasePage] This element By.id: login-password has been scrolled. 
+2022-08-16 09:27:10,920 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 09:27:10,958 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 09:27:11,003 INFO  [BasePage] 12345678 has been written to this element By.id: login-password . 
+2022-08-16 09:27:11,003 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 09:27:11,135 INFO  [BasePage] This element By.xpath: //button[contains(@class,'login')] has been scrolled. 
+2022-08-16 09:27:11,135 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 09:27:12,215 ERROR [Log] testCheckLogin() FAILED with cause : element click intercepted: Element <button role="button" type="submit" class="ky-btn ky-btn-orange w-100 ky-login-btn">...</button> is not clickable at point (362, 528). Other element would receive the click: <a class="mn-icon icon-hash" href="index.php?route=product/manufacturer_readlist">...</a>
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e275fa8da9952b599fc57cf8fd419d0b, clickElement {id=effdf545-83a8-4ecc-9170-e30c71caf920}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58334/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e275fa8da9952b599fc57cf8fd419d0b)] -> xpath: //button[contains(@class,'login')]]
+Session ID: e275fa8da9952b599fc57cf8fd419d0b 
+2022-08-16 09:27:15,242 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 09:27:15,384 INFO  [BasePage] This element By.cssSelector: input#search-input has been scrolled. 
+2022-08-16 09:27:15,384 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 09:27:15,432 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 09:27:15,479 INFO  [BasePage] Sanat has been written to this element By.cssSelector: input#search-input . 
+2022-08-16 09:27:15,479 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 09:27:15,616 INFO  [BasePage] This element By.xpath: //span[contains(@class,'search')] has been scrolled. 
+2022-08-16 09:27:15,616 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 09:27:16,781 INFO  [BasePage] Clicked on this element By.xpath: //span[contains(@class,'search')] . 
+2022-08-16 09:27:16,781 INFO  [BasePage] Searching for Sanat . 
+2022-08-16 09:27:16,793 INFO  [BasePage] By.xpath: //a[contains(@href,'search&page')] Elements of this have been found. 
+2022-08-16 09:27:19,683 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Elements of this have been found. 
+2022-08-16 09:27:22,881 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:220')] Element founded. 
+2022-08-16 09:27:22,911 INFO  [BasePage] By.className: personal-lists__text Element founded. 
+2022-08-16 09:27:23,065 INFO  [BasePage] This element By.className: personal-lists__text has been scrolled. 
+2022-08-16 09:27:23,065 INFO  [BasePage] By.className: personal-lists__text Element founded. 
+2022-08-16 09:27:23,106 INFO  [BasePage] Clicked on this element By.className: personal-lists__text . 
+2022-08-16 09:27:23,106 INFO  [BasePage] Added to Favorites List. 
+2022-08-16 09:27:23,106 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:27:43,149 ERROR [Log] testAddBookToFavorites() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'route=account/account') and @class="common-sprite"]"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e275fa8da9952b599fc57cf8fd419d0b, findElement {using=xpath, value=//a[contains(@href,'route=account/account') and @class="common-sprite"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58334/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e275fa8da9952b599fc57cf8fd419d0b 
+2022-08-16 09:27:43,149 INFO  [BasePage] By.xpath: //a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil'] Element founded. 
+2022-08-16 09:28:03,188 ERROR [Log] testRemoveBookFromFavorites() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil']"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e275fa8da9952b599fc57cf8fd419d0b, findElement {using=xpath, value=//a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58334/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e275fa8da9952b599fc57cf8fd419d0b 
+2022-08-16 09:28:03,188 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:28:23,232 ERROR [Log] testLogout() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'route=account/account') and @class="common-sprite"]"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e275fa8da9952b599fc57cf8fd419d0b, findElement {using=xpath, value=//a[contains(@href,'route=account/account') and @class="common-sprite"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58334/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e275fa8da9952b599fc57cf8fd419d0b 
+2022-08-16 09:29:31,479 INFO  [BasePage] https://www.kitapyurdu.com/ website loaded successfully. 
+2022-08-16 09:29:31,486 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 09:29:31,640 INFO  [BasePage] This element By.xpath: //a[contains(@href,'login')] has been scrolled. 
+2022-08-16 09:29:31,640 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 09:29:33,129 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'login')] . 
+2022-08-16 09:29:33,129 INFO  [BasePage] Directing to Login Page. 
+2022-08-16 09:29:33,130 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 09:29:33,259 INFO  [BasePage] This element By.id: login-email has been scrolled. 
+2022-08-16 09:29:33,259 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 09:29:33,304 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 09:29:33,361 INFO  [BasePage] kyakut35@gmail.com has been written to this element By.id: login-email . 
+2022-08-16 09:29:33,361 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 09:29:33,485 INFO  [BasePage] This element By.id: login-password has been scrolled. 
+2022-08-16 09:29:33,485 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 09:29:33,516 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 09:29:33,563 INFO  [BasePage] 12345678 has been written to this element By.id: login-password . 
+2022-08-16 09:29:33,563 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 09:29:33,686 INFO  [BasePage] This element By.xpath: //button[contains(@class,'login')] has been scrolled. 
+2022-08-16 09:29:33,686 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 09:29:33,733 INFO  [BasePage] Clicked on this element By.xpath: //button[contains(@class,'login')] . 
+2022-08-16 09:29:33,734 INFO  [BasePage] kyakut35@gmail.com and 12345678 written in appropriate places. 
+2022-08-16 09:29:38,758 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 09:29:38,885 INFO  [BasePage] This element By.cssSelector: input#search-input has been scrolled. 
+2022-08-16 09:29:38,885 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 09:29:38,920 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 09:29:38,969 INFO  [BasePage] Sanat has been written to this element By.cssSelector: input#search-input . 
+2022-08-16 09:29:38,969 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 09:29:39,117 INFO  [BasePage] This element By.xpath: //span[contains(@class,'search')] has been scrolled. 
+2022-08-16 09:29:39,117 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 09:29:40,495 INFO  [BasePage] Clicked on this element By.xpath: //span[contains(@class,'search')] . 
+2022-08-16 09:29:40,495 INFO  [BasePage] Searching for Sanat . 
+2022-08-16 09:29:40,503 INFO  [BasePage] By.xpath: //a[contains(@href,'search&page')] Elements of this have been found. 
+2022-08-16 09:29:43,313 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Elements of this have been found. 
+2022-08-16 09:29:46,758 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:220')] Element founded. 
+2022-08-16 09:29:46,789 INFO  [BasePage] By.className: personal-lists__text Element founded. 
+2022-08-16 09:29:46,945 INFO  [BasePage] This element By.className: personal-lists__text has been scrolled. 
+2022-08-16 09:29:46,945 INFO  [BasePage] By.className: personal-lists__text Element founded. 
+2022-08-16 09:29:47,000 INFO  [BasePage] Clicked on this element By.className: personal-lists__text . 
+2022-08-16 09:29:47,000 INFO  [BasePage] Added to Favorites List. 
+2022-08-16 09:29:47,000 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:29:47,137 INFO  [BasePage] This element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] has been scrolled. 
+2022-08-16 09:29:47,137 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:29:51,668 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] . 
+2022-08-16 09:29:51,668 INFO  [BasePage] By.xpath: //a[contains(@href,'favorite') and @class="highlight-link" ] Element founded. 
+2022-08-16 09:29:51,801 INFO  [BasePage] This element By.xpath: //a[contains(@href,'favorite') and @class="highlight-link" ] has been scrolled. 
+2022-08-16 09:29:51,801 INFO  [BasePage] By.xpath: //a[contains(@href,'favorite') and @class="highlight-link" ] Element founded. 
+2022-08-16 09:29:54,404 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'favorite') and @class="highlight-link" ] . 
+2022-08-16 09:29:54,404 INFO  [BasePage] Routed to Favorites List. 
+2022-08-16 09:29:54,404 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Element located. 
+2022-08-16 09:29:54,404 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Element founded. 
+2022-08-16 09:29:54,434 INFO  [BasePage] Favorites List checked. 
+2022-08-16 09:29:54,436 INFO  [BasePage] By.xpath: //a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil'] Element founded. 
+2022-08-16 09:29:54,588 INFO  [BasePage] This element By.xpath: //a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil'] has been scrolled. 
+2022-08-16 09:29:54,589 INFO  [BasePage] By.xpath: //a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil'] Element founded. 
+2022-08-16 09:29:54,632 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil'] . 
+2022-08-16 09:29:54,632 INFO  [BasePage] Removed from Favorites List. 
+2022-08-16 09:29:57,649 INFO  [BasePage] Favorites List checked. 
+2022-08-16 09:29:57,649 INFO  [BasePage] By.cssSelector: a#tag-0 Element located. 
+2022-08-16 09:29:57,649 INFO  [BasePage] By.cssSelector: a#tag-0 Element founded. 
+2022-08-16 09:29:57,668 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:29:57,821 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')] Element founded. 
+2022-08-16 09:30:04,443 ERROR [Log] testLogout() FAILED with cause : stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7aa6b6ce68798d55cab7913379d7e201, actions {actions=[org.openqa.selenium.interactions.Sequence@62db3891]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58477}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58477/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7aa6b6ce68798d55cab7913379d7e201 
+2022-08-16 09:31:30,798 INFO  [BasePage] https://www.kitapyurdu.com/ website loaded successfully. 
+2022-08-16 09:31:30,807 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 09:31:30,955 INFO  [BasePage] This element By.xpath: //a[contains(@href,'login')] has been scrolled. 
+2022-08-16 09:31:30,955 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2022-08-16 09:31:33,033 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'login')] . 
+2022-08-16 09:31:33,033 INFO  [BasePage] Directing to Login Page. 
+2022-08-16 09:31:33,034 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 09:31:33,159 INFO  [BasePage] This element By.id: login-email has been scrolled. 
+2022-08-16 09:31:33,159 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 09:31:33,195 INFO  [BasePage] By.id: login-email Element founded. 
+2022-08-16 09:31:33,254 INFO  [BasePage] kyakut35@gmail.com has been written to this element By.id: login-email . 
+2022-08-16 09:31:33,254 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 09:31:33,401 INFO  [BasePage] This element By.id: login-password has been scrolled. 
+2022-08-16 09:31:33,401 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 09:31:33,432 INFO  [BasePage] By.id: login-password Element founded. 
+2022-08-16 09:31:33,491 INFO  [BasePage] 12345678 has been written to this element By.id: login-password . 
+2022-08-16 09:31:33,492 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 09:31:33,628 INFO  [BasePage] This element By.xpath: //button[contains(@class,'login')] has been scrolled. 
+2022-08-16 09:31:33,628 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2022-08-16 09:31:33,682 INFO  [BasePage] Clicked on this element By.xpath: //button[contains(@class,'login')] . 
+2022-08-16 09:31:33,682 INFO  [BasePage] kyakut35@gmail.com and 12345678 written in appropriate places. 
+2022-08-16 09:31:35,704 ERROR [Log] testCheckLogin() FAILED with cause : User Login Failed ==> expected: <true> but was: <false> 
+2022-08-16 09:31:38,727 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 09:31:38,869 INFO  [BasePage] This element By.cssSelector: input#search-input has been scrolled. 
+2022-08-16 09:31:38,869 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 09:31:38,903 INFO  [BasePage] By.cssSelector: input#search-input Element founded. 
+2022-08-16 09:31:38,950 INFO  [BasePage] Sanat has been written to this element By.cssSelector: input#search-input . 
+2022-08-16 09:31:38,950 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 09:31:39,085 INFO  [BasePage] This element By.xpath: //span[contains(@class,'search')] has been scrolled. 
+2022-08-16 09:31:39,085 INFO  [BasePage] By.xpath: //span[contains(@class,'search')] Element founded. 
+2022-08-16 09:31:40,970 ERROR [Log] testSearchBook() FAILED with cause : stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'KEREMYAKUT', ip: '10.135.32.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c09342ed81e132442c7734fd4cdff2b1, clickElement {id=9c0de543-647a-4056-b9d8-0fcd67998381}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kerem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58582/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c09342ed81e132442c7734fd4cdff2b1)] -> xpath: //span[contains(@class,'search')]]
+Session ID: c09342ed81e132442c7734fd4cdff2b1 
+2022-08-16 09:31:40,976 INFO  [BasePage] By.xpath: //a[contains(@href,'search&page')] Elements of this have been found. 
+2022-08-16 09:31:49,384 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Elements of this have been found. 
+2022-08-16 09:31:57,237 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:220')] Element founded. 
+2022-08-16 09:31:57,274 INFO  [BasePage] By.className: personal-lists__text Element founded. 
+2022-08-16 09:31:57,422 INFO  [BasePage] This element By.className: personal-lists__text has been scrolled. 
+2022-08-16 09:31:57,422 INFO  [BasePage] By.className: personal-lists__text Element founded. 
+2022-08-16 09:31:57,462 INFO  [BasePage] Clicked on this element By.className: personal-lists__text . 
+2022-08-16 09:31:57,462 INFO  [BasePage] Added to Favorites List. 
+2022-08-16 09:31:57,462 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:31:57,599 INFO  [BasePage] This element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] has been scrolled. 
+2022-08-16 09:31:57,599 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:32:01,620 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] . 
+2022-08-16 09:32:01,621 INFO  [BasePage] By.xpath: //a[contains(@href,'favorite') and @class="highlight-link" ] Element founded. 
+2022-08-16 09:32:01,751 INFO  [BasePage] This element By.xpath: //a[contains(@href,'favorite') and @class="highlight-link" ] has been scrolled. 
+2022-08-16 09:32:01,751 INFO  [BasePage] By.xpath: //a[contains(@href,'favorite') and @class="highlight-link" ] Element founded. 
+2022-08-16 09:32:03,225 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'favorite') and @class="highlight-link" ] . 
+2022-08-16 09:32:03,226 INFO  [BasePage] Routed to Favorites List. 
+2022-08-16 09:32:03,226 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Element located. 
+2022-08-16 09:32:03,226 INFO  [BasePage] By.xpath: //img[contains(@src,'wi:100')] Element founded. 
+2022-08-16 09:32:03,255 INFO  [BasePage] Favorites List checked. 
+2022-08-16 09:32:03,256 INFO  [BasePage] By.xpath: //a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil'] Element founded. 
+2022-08-16 09:32:03,392 INFO  [BasePage] This element By.xpath: //a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil'] has been scrolled. 
+2022-08-16 09:32:03,392 INFO  [BasePage] By.xpath: //a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil'] Element founded. 
+2022-08-16 09:32:03,432 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil'] . 
+2022-08-16 09:32:03,432 INFO  [BasePage] Removed from Favorites List. 
+2022-08-16 09:32:06,441 INFO  [BasePage] Favorites List checked. 
+2022-08-16 09:32:06,441 INFO  [BasePage] By.cssSelector: a#tag-0 Element located. 
+2022-08-16 09:32:06,441 INFO  [BasePage] By.cssSelector: a#tag-0 Element founded. 
+2022-08-16 09:32:06,467 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2022-08-16 09:32:06,599 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')] Element founded. 
+2022-08-16 09:32:08,825 INFO  [BasePage] Logout from website successfully. 
+2022-08-16 09:32:08,825 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 

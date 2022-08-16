@@ -19,12 +19,14 @@ public class BookDetailPage extends BasePage {
 
     public void addToFavorites() {
         click(By.className("personal-lists__text"));
+        logger.info("Added to Favorites List.");
         goToFavoritesList();
     }
 
     public void goToFavoritesList() {
         click(By.xpath("//a[contains(@href,'route=account/account') and @class=\"common-sprite\"]"));
         click(By.xpath("//a[contains(@href,'favorite') and @class=\"highlight-link\" ]"));
+        logger.info("Routed to Favorites List.");
     }
 
     public void goToCart() {

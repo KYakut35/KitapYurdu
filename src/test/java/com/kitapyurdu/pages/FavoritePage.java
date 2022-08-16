@@ -12,6 +12,7 @@ public class FavoritePage extends BasePage {
 
     public boolean checkFavorites() {
         if (isDisplayed(By.xpath("//img[contains(@src,'wi:100')]"))) {
+            logger.info("Favorites List checked.");
         return true;
         }
         return false;
@@ -19,9 +20,11 @@ public class FavoritePage extends BasePage {
 
     public void removeFromFavorites() {
         click(By.xpath("//a[contains(@onclick,'removeFromFavorites') and @data-title='Favorilerimden Sil']"));
+        logger.info("Removed from Favorites List.");
     }
 
     public boolean checkFavoritesForEmpty() {
+        logger.info("Favorites List checked.");
         return isDisplayed(By.cssSelector("a#tag-0"));
     }
 
