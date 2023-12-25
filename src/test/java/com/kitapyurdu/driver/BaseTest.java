@@ -1,7 +1,6 @@
 package com.kitapyurdu.driver;
 
 import com.kitapyurdu.log.TestResultsLogger;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
@@ -20,7 +19,7 @@ public class BaseTest  {
 
     @BeforeAll
     public static void setup() {
-        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver.exe");
         String baseURL = "https://www.kitapyurdu.com/";
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--disable-notifications");

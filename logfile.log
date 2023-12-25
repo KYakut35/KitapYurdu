@@ -2572,3 +2572,47 @@ Session ID: c09342ed81e132442c7734fd4cdff2b1
 2022-08-16 09:32:06,599 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')] Element founded. 
 2022-08-16 09:32:08,825 INFO  [BasePage] Logout from website successfully. 
 2022-08-16 09:32:08,825 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2023-12-25 10:04:39,410 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2023-12-25 10:04:39,678 INFO  [BasePage] This element By.xpath: //a[contains(@href,'login')] has been scrolled. 
+2023-12-25 10:04:39,678 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
+2023-12-25 10:04:41,699 INFO  [BasePage] Clicked on this element By.xpath: //a[contains(@href,'login')] . 
+2023-12-25 10:04:41,700 INFO  [BasePage] Directing to Login Page. 
+2023-12-25 10:04:41,701 INFO  [BasePage] By.id: login-email Element founded. 
+2023-12-25 10:04:41,874 INFO  [BasePage] This element By.id: login-email has been scrolled. 
+2023-12-25 10:04:41,874 INFO  [BasePage] By.id: login-email Element founded. 
+2023-12-25 10:04:42,096 INFO  [BasePage] By.id: login-email Element founded. 
+2023-12-25 10:04:42,441 INFO  [BasePage] kyakut35@gmail.com has been written to this element By.id: login-email . 
+2023-12-25 10:04:42,441 INFO  [BasePage] By.id: login-password Element founded. 
+2023-12-25 10:04:42,655 INFO  [BasePage] This element By.id: login-password has been scrolled. 
+2023-12-25 10:04:42,655 INFO  [BasePage] By.id: login-password Element founded. 
+2023-12-25 10:04:42,779 INFO  [BasePage] By.id: login-password Element founded. 
+2023-12-25 10:04:42,901 INFO  [BasePage] 12345678 has been written to this element By.id: login-password . 
+2023-12-25 10:04:42,901 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2023-12-25 10:04:43,061 INFO  [BasePage] This element By.xpath: //button[contains(@class,'login')] has been scrolled. 
+2023-12-25 10:04:43,062 INFO  [BasePage] By.xpath: //button[contains(@class,'login')] Element founded. 
+2023-12-25 10:04:43,255 INFO  [BasePage] Clicked on this element By.xpath: //button[contains(@class,'login')] . 
+2023-12-25 10:04:43,256 INFO  [BasePage] kyakut35@gmail.com and 12345678 written in appropriate places. 
+2023-12-25 10:04:45,767 INFO  [BasePage] By.id: button-cart Element founded. 
+2023-12-25 10:05:05,877 ERROR [Log] testAddToCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#button\-cart"}
+  (Session info: chrome=120.0.6099.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1365bd1f944b6a370496f5653a00f606, findElement {using=id, value=button-cart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\N100046\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49780/devtoo..., se:cdpVersion: 120.0.6099.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1365bd1f944b6a370496f5653a00f606 
+2023-12-25 10:05:07,938 INFO  [BasePage] By.xpath: //i[@title="Kaldır"] Element founded. 
+2023-12-25 10:05:27,985 ERROR [Log] testClearCart() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title="Kaldır"]"}
+  (Session info: chrome=120.0.6099.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1365bd1f944b6a370496f5653a00f606, findElement {using=xpath, value=//i[@title="Kaldır"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\N100046\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49780/devtoo..., se:cdpVersion: 120.0.6099.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1365bd1f944b6a370496f5653a00f606 
+2023-12-25 10:05:28,019 INFO  [BasePage] By.xpath: //a[contains(@href,'route=account/account') and @class="common-sprite"] Element founded. 
+2023-12-25 10:05:33,231 INFO  [BasePage] By.xpath: //a[contains(@href,'logout')] Element founded. 
+2023-12-25 10:05:36,172 INFO  [BasePage] Logout from website successfully. 
+2023-12-25 10:05:36,173 INFO  [BasePage] By.xpath: //a[contains(@href,'login')] Element founded. 
